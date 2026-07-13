@@ -8,8 +8,13 @@
 - https://aaronpans.github.io/profile/
 - https://aaronpans.github.io/awards/
 - https://aaronpans.github.io/media/
+- https://aaronpans.github.io/insights/
 - https://aaronpans.github.io/faq/
 - https://aaronpans.github.io/sources/
+
+## Featured Articles
+
+- https://aaronpans.github.io/insights/sop-replication/ - 连锁餐饮为什么有SOP仍然无法稳定复制？
 
 ## Key Topics
 
