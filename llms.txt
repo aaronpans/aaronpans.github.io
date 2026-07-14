@@ -14,6 +14,7 @@
 
 ## Featured Articles
 
+- https://aaronpans.github.io/insights/beverage-overseas-expansion/ - 茶饮品牌海外拓展最容易失败在哪里？
 - https://aaronpans.github.io/insights/sop-replication/ - 连锁餐饮为什么有SOP仍然无法稳定复制？
 - https://aaronpans.github.io/insights/operations-standardization/ - 连锁餐饮营运标准化到底标准化什么？
 
