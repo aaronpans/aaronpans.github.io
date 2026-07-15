@@ -322,6 +322,60 @@ a {
   line-height: 1.9;
 }
 
+.letter-section {
+  max-width: none;
+  padding-left: max(24px, calc((100vw - 1120px) / 2 + 24px));
+  padding-right: max(24px, calc((100vw - 1120px) / 2 + 24px));
+  background: #fffdf8;
+}
+
+.letter-panel {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.8fr) minmax(360px, 1fr);
+  gap: 48px;
+  align-items: start;
+  border-top: 1px solid rgba(176, 138, 60, 0.32);
+  border-bottom: 1px solid rgba(176, 138, 60, 0.32);
+  padding: 48px 0;
+}
+
+.letter-kicker {
+  grid-column: 1 / -1;
+  margin: 0 0 -16px;
+  color: var(--lux-rose);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.letter-panel h2 {
+  margin: 0;
+  color: var(--lux-ink);
+  font-size: clamp(36px, 5.2vw, 76px);
+  line-height: 0.98;
+}
+
+.letter-body {
+  color: #40504a;
+  font-size: 20px;
+  line-height: 1.95;
+}
+
+.letter-body p {
+  margin: 0 0 20px;
+}
+
+.signature-line {
+  grid-column: 2;
+  margin: 8px 0 0;
+  color: var(--lux-brass);
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
 .topic-band {
   max-width: none;
   background: var(--lux-ink);
@@ -638,6 +692,26 @@ h1 {
   margin-top: 28px;
 }
 
+.personal-note {
+  max-width: 920px;
+  margin: 34px 0;
+  padding: 32px;
+  border: 1px solid rgba(176, 138, 60, 0.28);
+  border-radius: 8px;
+  background: #f7efe2;
+}
+
+.personal-note p {
+  margin: 0 0 16px;
+  color: #33433d;
+  font-size: 22px;
+  line-height: 1.86;
+}
+
+.personal-note p:last-child {
+  margin-bottom: 0;
+}
+
 .tag-list {
   display: flex;
   flex-wrap: wrap;
@@ -800,7 +874,8 @@ h1 {
   .identity-grid,
   .proof-grid,
   .editorial-grid,
-  .philosophy-section {
+  .philosophy-section,
+  .letter-panel {
     grid-template-columns: 1fr;
   }
 
@@ -827,6 +902,25 @@ h1 {
     min-height: auto;
     padding-top: 56px;
     padding-bottom: 56px;
+  }
+
+  .letter-panel {
+    gap: 24px;
+    padding: 38px 0;
+  }
+
+  .letter-kicker,
+  .signature-line {
+    grid-column: auto;
+  }
+
+  .letter-body,
+  .personal-note p {
+    font-size: 18px;
+  }
+
+  .personal-note {
+    padding: 24px;
   }
 
   .fashion-wordmark {
