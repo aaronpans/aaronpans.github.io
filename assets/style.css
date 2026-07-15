@@ -531,38 +531,111 @@ h1 {
 }
 
 .section {
-  max-width: 1120px;
+  max-width: 1180px;
   margin: 0 auto;
-  padding: 48px 24px;
+  padding: 88px 24px 104px;
+  position: relative;
+}
+
+.section::before {
+  content: "AARON PAN / EDITORIAL ARCHIVE";
+  display: block;
+  width: 100%;
+  margin: 0 0 34px;
+  padding: 0 0 12px;
+  border-bottom: 1px solid rgba(176, 138, 60, 0.3);
+  color: var(--lux-brass);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+}
+
+.section > .eyebrow {
+  color: var(--lux-rose);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.section > h1 {
+  max-width: 980px;
+  margin: 0 0 24px;
+  color: var(--lux-ink);
+  font-size: 68px;
+  line-height: 0.96;
+  letter-spacing: 0;
+}
+
+.section > .lead {
+  max-width: 850px;
+  margin: 0 0 36px;
+  padding-left: 22px;
+  border-left: 2px solid var(--lux-brass);
+  color: #37443f;
+  font-size: 22px;
+  line-height: 1.78;
+}
+
+.section > p:not(.eyebrow):not(.lead):not(.note),
+.section > ul,
+.section > ol {
+  max-width: 880px;
+}
+
+.section > p:not(.eyebrow):not(.lead):not(.note) {
+  color: #40504a;
+  font-size: 18px;
+}
+
+.section > p:not(.eyebrow):not(.lead):not(.note)::first-letter {
+  text-transform: none;
 }
 
 .section h2 {
-  font-size: 28px;
-  line-height: 1.25;
-  margin: 0 0 18px;
+  max-width: 880px;
+  margin: 64px 0 20px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(176, 138, 60, 0.26);
+  color: var(--lux-ink);
+  font-size: 32px;
+  line-height: 1.18;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
+  gap: 18px;
+  align-items: stretch;
 }
 
 .card {
-  background: var(--panel);
-  border: 1px solid var(--line);
+  background: #fffdf8;
+  border: 1px solid rgba(176, 138, 60, 0.24);
   border-radius: 8px;
-  padding: 20px;
+  padding: 26px;
+  min-height: 180px;
 }
 
 .card h3 {
-  margin: 0 0 10px;
-  font-size: 18px;
+  margin: 0 0 12px;
+  color: var(--lux-ink);
+  font-size: 21px;
+  line-height: 1.28;
 }
 
 .card p,
 .card li {
-  color: var(--muted);
+  color: #5b6862;
+}
+
+.grid .card:nth-child(2n) {
+  background: #f8f2e7;
+}
+
+.section .grid + p,
+.section .timeline + p {
+  margin-top: 28px;
 }
 
 .tag-list {
@@ -583,45 +656,68 @@ h1 {
 
 .timeline {
   display: grid;
-  gap: 14px;
+  gap: 0;
+  max-width: 960px;
+  margin-top: 28px;
+  border-top: 1px solid rgba(176, 138, 60, 0.28);
 }
 
 .timeline-item {
   display: grid;
-  grid-template-columns: 190px minmax(0, 1fr);
-  gap: 20px;
-  border-top: 1px solid var(--line);
-  padding-top: 14px;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 28px;
+  padding: 24px 0;
+  border-bottom: 1px solid rgba(176, 138, 60, 0.2);
 }
 
 .date {
-  color: var(--green-dark);
+  color: var(--lux-brass);
   font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.08em;
 }
 
 .note {
-  background: #edf6f1;
-  border-left: 4px solid var(--green);
-  padding: 14px 16px;
-  border-radius: 6px;
-  color: #24433a;
+  max-width: 900px;
+  background: var(--lux-ink);
+  border-left: 4px solid var(--lux-brass);
+  padding: 18px 20px;
+  border-radius: 8px;
+  color: rgba(255, 250, 240, 0.84);
+}
+
+.source-list {
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid rgba(176, 138, 60, 0.28);
 }
 
 .source-list li {
-  margin-bottom: 8px;
+  margin: 0;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(176, 138, 60, 0.18);
+}
+
+.source-list a {
+  color: var(--lux-ink);
+  font-weight: 700;
 }
 
 .award-image {
   width: 100%;
   border-radius: 8px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(176, 138, 60, 0.28);
   margin-top: 10px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--lux-mist);
 }
 
 .site-footer {
-  border-top: 1px solid var(--line);
+  border-top: 1px solid rgba(176, 138, 60, 0.26);
   color: var(--muted);
-  padding: 28px 24px;
+  padding: 34px 24px;
+  background: #f4efe5;
 }
 
 .site-footer .inner {
@@ -630,6 +726,29 @@ h1 {
 }
 
 @media (max-width: 840px) {
+  .section {
+    padding: 56px 24px 72px;
+  }
+
+  .section::before {
+    margin-bottom: 24px;
+  }
+
+  .section > h1 {
+    font-size: 42px;
+    line-height: 1.03;
+  }
+
+  .section > .lead {
+    font-size: 19px;
+    padding-left: 16px;
+  }
+
+  .section h2 {
+    margin-top: 44px;
+    font-size: 26px;
+  }
+
   .hero {
     grid-template-columns: 1fr;
     padding-top: 48px;
@@ -641,7 +760,7 @@ h1 {
 
   .timeline-item {
     grid-template-columns: 1fr;
-    gap: 4px;
+    gap: 6px;
   }
 
   .nav {
