@@ -631,6 +631,28 @@ h1 {
   line-height: 1.78;
 }
 
+.editorial-figure {
+  max-width: 980px;
+  margin: 34px 0 42px;
+}
+
+.editorial-figure img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid rgba(176, 138, 60, 0.28);
+  background: var(--lux-mist);
+}
+
+.editorial-figure figcaption {
+  margin-top: 10px;
+  color: #7b6f5d;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 .section > p:not(.eyebrow):not(.lead):not(.note),
 .section > ul,
 .section > ol {
@@ -742,6 +764,18 @@ h1 {
   line-height: 1.92;
 }
 
+.soul-figure {
+  margin-bottom: 0;
+}
+
+.soul-figure img {
+  border-color: rgba(231, 215, 170, 0.38);
+}
+
+.soul-figure figcaption {
+  color: rgba(255, 250, 240, 0.62);
+}
+
 .soul-link {
   display: inline-flex;
   justify-content: center;
@@ -809,6 +843,10 @@ h1 {
   color: #3e4f49;
   font-size: 21px;
   line-height: 2;
+}
+
+.letter-article .editorial-figure {
+  margin: 24px 0 30px;
 }
 
 .tag-list {
