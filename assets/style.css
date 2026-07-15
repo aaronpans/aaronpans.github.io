@@ -712,6 +712,105 @@ h1 {
   margin-bottom: 0;
 }
 
+.soul-essay-section {
+  max-width: none;
+  padding-left: max(24px, calc((100vw - 1120px) / 2 + 24px));
+  padding-right: max(24px, calc((100vw - 1120px) / 2 + 24px));
+  background: var(--lux-ink);
+  color: #fffaf0;
+}
+
+.soul-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  gap: 42px;
+  align-items: end;
+}
+
+.soul-layout h2 {
+  max-width: 860px;
+  margin: 0 0 24px;
+  color: #fffaf0;
+  font-size: clamp(36px, 5vw, 72px);
+  line-height: 1;
+}
+
+.soul-layout p {
+  max-width: 820px;
+  color: rgba(255, 250, 240, 0.78);
+  font-size: 20px;
+  line-height: 1.92;
+}
+
+.soul-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 52px;
+  padding: 12px 18px;
+  border: 1px solid rgba(231, 215, 170, 0.54);
+  border-radius: 8px;
+  color: #fffaf0;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.management-meditation {
+  max-width: 940px;
+  margin: 42px 0;
+  padding: 32px;
+  border: 1px solid rgba(176, 138, 60, 0.28);
+  border-radius: 8px;
+  background: #f8f1e6;
+}
+
+.management-meditation h2 {
+  margin: 0 0 16px;
+  padding: 0;
+  border: 0;
+  color: var(--lux-ink);
+  font-size: clamp(28px, 4vw, 46px);
+  line-height: 1.08;
+}
+
+.management-meditation p {
+  margin: 0 0 16px;
+  color: #40504a;
+  font-size: 19px;
+  line-height: 1.9;
+}
+
+.management-meditation p:last-child {
+  margin-bottom: 0;
+}
+
+.letters-page .lead {
+  margin-bottom: 48px;
+}
+
+.letter-article {
+  max-width: 980px;
+  margin: 0 0 54px;
+  padding: 34px 0 42px;
+  border-top: 1px solid rgba(176, 138, 60, 0.28);
+}
+
+.letter-article h2 {
+  margin: 0 0 20px;
+  padding: 0;
+  border: 0;
+  color: var(--lux-ink);
+  font-size: clamp(34px, 5vw, 64px);
+  line-height: 0.98;
+}
+
+.letter-article p:not(.article-topic) {
+  max-width: 820px;
+  color: #3e4f49;
+  font-size: 21px;
+  line-height: 2;
+}
+
 .tag-list {
   display: flex;
   flex-wrap: wrap;
@@ -875,7 +974,8 @@ h1 {
   .proof-grid,
   .editorial-grid,
   .philosophy-section,
-  .letter-panel {
+  .letter-panel,
+  .soul-layout {
     grid-template-columns: 1fr;
   }
 
@@ -914,13 +1014,35 @@ h1 {
     grid-column: auto;
   }
 
-  .letter-body,
-  .personal-note p {
-    font-size: 18px;
-  }
+.letter-body,
+.personal-note p {
+  font-size: 18px;
+}
 
   .personal-note {
     padding: 24px;
+  }
+
+  .soul-layout {
+    gap: 22px;
+  }
+
+  .soul-layout h2 {
+    font-size: 38px;
+  }
+
+  .soul-layout p,
+  .letter-article p:not(.article-topic),
+  .management-meditation p {
+    font-size: 18px;
+  }
+
+  .management-meditation {
+    padding: 24px;
+  }
+
+  .letter-article h2 {
+    font-size: 34px;
   }
 
   .fashion-wordmark {
