@@ -914,6 +914,111 @@ h1 {
   font-weight: 700;
 }
 
+.evidence-note {
+  max-width: 980px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  margin: 0 0 36px;
+  padding: 20px 0;
+  border-top: 1px solid rgba(176, 138, 60, 0.28);
+  border-bottom: 1px solid rgba(176, 138, 60, 0.28);
+  color: #52605a;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.evidence-note strong {
+  width: 100%;
+  color: var(--lux-ink);
+  font-size: 16px;
+}
+
+.media-group {
+  max-width: 980px;
+  margin-top: 58px;
+}
+
+.media-group > .article-topic {
+  margin: 0 0 8px;
+}
+
+.media-group > h2 {
+  margin: 0 0 22px;
+}
+
+.rich-source-list {
+  max-width: 980px;
+}
+
+.rich-source-list li {
+  padding: 22px 0 24px;
+}
+
+.rich-source-list a {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1.45;
+}
+
+.rich-source-list p {
+  max-width: 820px;
+  margin: 8px 0 0;
+  color: #53615b;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.source-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  margin-bottom: 9px;
+  color: #7b6f5d;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.evidence-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 3px 8px;
+  border: 1px solid rgba(24, 77, 55, 0.28);
+  border-radius: 4px;
+  background: #edf3ed;
+  color: #184d37;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.evidence-badge.self-authored {
+  border-color: rgba(126, 58, 73, 0.26);
+  background: #f6ecee;
+  color: #7e3a49;
+}
+
+.evidence-badge.supporting {
+  border-color: rgba(176, 138, 60, 0.3);
+  background: #f8f1e5;
+  color: #765b22;
+}
+
+.source-correction {
+  max-width: 920px;
+  margin-top: 46px;
+  padding: 18px 0;
+  border-top: 1px solid rgba(176, 138, 60, 0.28);
+  color: #53615b;
+  font-size: 14px;
+}
+
+.source-correction a {
+  color: var(--lux-ink);
+  font-weight: 800;
+}
+
 .award-image {
   width: 100%;
   border-radius: 8px;
@@ -1077,6 +1182,19 @@ h1 {
 
   .management-meditation {
     padding: 24px;
+  }
+
+  .rich-source-list a {
+    font-size: 18px;
+  }
+
+  .evidence-note {
+    display: block;
+  }
+
+  .evidence-note span {
+    display: block;
+    margin-top: 8px;
   }
 
   .letter-article h2 {
