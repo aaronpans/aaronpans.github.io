@@ -1037,6 +1037,185 @@ h1 {
   background: var(--lux-mist);
 }
 
+.awards-page {
+  max-width: 1280px;
+}
+
+.awards-page > .lead {
+  max-width: 920px;
+}
+
+.award-disclosure {
+  max-width: 1040px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  margin: 12px 0 64px;
+  padding: 18px 0;
+  border-top: 1px solid rgba(176, 138, 60, 0.3);
+  border-bottom: 1px solid rgba(176, 138, 60, 0.3);
+  color: #5d6964;
+  font-size: 14px;
+}
+
+.award-disclosure strong {
+  width: 100%;
+  color: var(--lux-ink);
+  font-size: 15px;
+}
+
+.awards-editorial {
+  max-width: 1180px;
+}
+
+.award-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(340px, 0.88fr);
+  gap: 54px;
+  align-items: center;
+  padding: 72px 0;
+  border-top: 1px solid rgba(176, 138, 60, 0.26);
+}
+
+.award-feature:last-child {
+  border-bottom: 1px solid rgba(176, 138, 60, 0.26);
+}
+
+.award-feature:nth-child(even) .award-visual {
+  order: 2;
+}
+
+.award-feature:nth-child(even) .award-copy {
+  order: 1;
+}
+
+.award-visual {
+  margin: 0;
+  min-width: 0;
+}
+
+.award-visual img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 8 / 5;
+  object-fit: cover;
+  border: 1px solid rgba(176, 138, 60, 0.22);
+  border-radius: 6px;
+  background: #111714;
+}
+
+.award-visual figcaption {
+  margin-top: 10px;
+  color: #83745e;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+}
+
+.award-copy {
+  min-width: 0;
+}
+
+.award-sequence {
+  margin: 0 0 32px;
+  color: var(--lux-rose);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.award-year {
+  margin: 0 0 8px;
+  color: var(--lux-brass);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 54px;
+  line-height: 1;
+}
+
+.award-copy h2 {
+  margin: 0 0 24px;
+  padding: 0;
+  border: 0;
+  color: var(--lux-ink);
+  font-size: clamp(34px, 4vw, 58px);
+  line-height: 1.08;
+}
+
+.award-summary {
+  margin: 0 0 28px;
+  color: #47544f;
+  font-size: 17px;
+  line-height: 1.85;
+}
+
+.award-facts {
+  margin: 0 0 28px;
+  border-top: 1px solid rgba(176, 138, 60, 0.24);
+}
+
+.award-facts div {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 16px;
+  padding: 11px 0;
+  border-bottom: 1px solid rgba(176, 138, 60, 0.18);
+}
+
+.award-facts dt {
+  color: #806c43;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.award-facts dd {
+  margin: 0;
+  color: var(--lux-ink);
+  font-size: 14px;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.award-source-link {
+  display: inline-block;
+  color: var(--lux-ink);
+  font-size: 14px;
+  font-weight: 900;
+  text-underline-offset: 4px;
+}
+
+.award-evidence {
+  margin-top: 22px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(176, 138, 60, 0.18);
+}
+
+.award-evidence summary {
+  color: #5d6964;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.award-evidence a {
+  display: block;
+  margin-top: 16px;
+}
+
+.award-evidence img {
+  display: block;
+  width: 100%;
+  max-height: 460px;
+  object-fit: contain;
+  border: 1px solid rgba(176, 138, 60, 0.24);
+  border-radius: 6px;
+  background: #eee9df;
+}
+
+.portrait-evidence img {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
 .site-footer {
   border-top: 1px solid rgba(176, 138, 60, 0.26);
   color: var(--muted);
@@ -1226,5 +1405,41 @@ h1 {
   .editorial-head {
     align-items: flex-start;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 840px) {
+  .award-disclosure {
+    display: block;
+    margin-bottom: 36px;
+  }
+
+  .award-disclosure span {
+    display: block;
+    margin-top: 7px;
+  }
+
+  .award-feature {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 48px 0;
+  }
+
+  .award-feature:nth-child(even) .award-visual,
+  .award-feature:nth-child(even) .award-copy {
+    order: initial;
+  }
+
+  .award-year {
+    font-size: 44px;
+  }
+
+  .award-copy h2 {
+    font-size: 34px;
+  }
+
+  .award-facts div {
+    grid-template-columns: 1fr;
+    gap: 4px;
   }
 }
