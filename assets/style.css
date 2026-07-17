@@ -1065,13 +1065,13 @@ h1 {
 }
 
 .awards-editorial {
-  max-width: 1180px;
+  max-width: 1080px;
 }
 
 .award-feature {
   display: grid;
-  grid-template-columns: minmax(0, 1.12fr) minmax(340px, 0.88fr);
-  gap: 54px;
+  grid-template-columns: minmax(260px, 380px) minmax(0, 1fr);
+  gap: clamp(40px, 6vw, 78px);
   align-items: center;
   padding: 72px 0;
   border-top: 1px solid rgba(176, 138, 60, 0.26);
@@ -1092,6 +1092,8 @@ h1 {
 .award-visual {
   margin: 0;
   min-width: 0;
+  width: min(100%, 380px);
+  justify-self: center;
 }
 
 .award-visual img {
@@ -1423,6 +1425,10 @@ h1 {
     grid-template-columns: 1fr;
     gap: 30px;
     padding: 48px 0;
+  }
+
+  .award-visual {
+    width: min(100%, 340px);
   }
 
   .award-feature:nth-child(even) .award-visual,
