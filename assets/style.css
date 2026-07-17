@@ -1092,15 +1092,16 @@ h1 {
 .award-visual {
   margin: 0;
   min-width: 0;
-  width: min(100%, 380px);
+  width: min(100%, 340px);
   justify-self: center;
 }
 
 .award-visual img {
   display: block;
   width: 100%;
-  aspect-ratio: 8 / 5;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
+  object-position: center 30%;
   border: 1px solid rgba(176, 138, 60, 0.22);
   border-radius: 6px;
   background: #111714;
@@ -1428,7 +1429,7 @@ h1 {
   }
 
   .award-visual {
-    width: min(100%, 340px);
+    width: min(100%, 300px);
   }
 
   .award-feature:nth-child(even) .award-visual,
