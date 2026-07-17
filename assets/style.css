@@ -947,6 +947,14 @@ h1 {
   margin: 0 0 22px;
 }
 
+.group-note {
+  max-width: 860px;
+  margin: -6px 0 22px;
+  color: #5d6964;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
 .rich-source-list {
   max-width: 980px;
 }
