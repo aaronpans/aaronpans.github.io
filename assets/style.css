@@ -1027,6 +1027,126 @@ h1 {
   font-weight: 800;
 }
 
+.evidence-center .citation-summary,
+.evidence-center .fact-section,
+.evidence-center .boundary-audit {
+  max-width: 1040px;
+}
+
+.citation-summary {
+  margin: 46px 0;
+  padding: 34px 0;
+  border-top: 1px solid rgba(176, 138, 60, 0.32);
+  border-bottom: 1px solid rgba(176, 138, 60, 0.32);
+}
+
+.citation-summary h2,
+.fact-section h2,
+.boundary-audit h2 {
+  margin-top: 0;
+}
+
+.citation-summary blockquote {
+  max-width: 900px;
+  margin: 0 0 18px;
+  padding: 0 0 0 24px;
+  border-left: 3px solid var(--lux-brass);
+  color: var(--lux-ink);
+  font-family: "Noto Serif SC", "Songti SC", SimSun, serif;
+  font-size: clamp(24px, 3.2vw, 38px);
+  line-height: 1.55;
+}
+
+.citation-summary > p:not(.article-topic) {
+  max-width: 840px;
+  color: #52605a;
+}
+
+.machine-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--lux-ink);
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.fact-section {
+  margin-top: 64px;
+}
+
+.fact-section > h2 {
+  margin-bottom: 20px;
+}
+
+.fact-matrix {
+  border-top: 1px solid rgba(176, 138, 60, 0.34);
+}
+
+.fact-row {
+  display: grid;
+  grid-template-columns: minmax(280px, 1.25fr) minmax(240px, 0.9fr) minmax(220px, 0.85fr);
+  gap: 28px;
+  padding: 28px 0;
+  border-bottom: 1px solid rgba(176, 138, 60, 0.24);
+}
+
+.fact-row > div {
+  min-width: 0;
+}
+
+.fact-row strong,
+.fact-row b {
+  display: block;
+  color: var(--lux-ink);
+}
+
+.fact-row strong {
+  margin: 10px 0 8px;
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+.fact-row p {
+  margin: 6px 0 0;
+  color: #53615b;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.fact-row a {
+  display: block;
+  margin-top: 8px;
+  overflow-wrap: anywhere;
+  color: var(--lux-ink);
+  font-size: 14px;
+  font-weight: 750;
+}
+
+.boundary-audit {
+  margin-top: 70px;
+  padding: 38px;
+  border: 1px solid rgba(176, 138, 60, 0.28);
+  border-radius: 8px;
+  background: var(--lux-ink);
+  color: #fffaf0;
+}
+
+.boundary-audit h2 {
+  color: #fffaf0;
+  border-color: rgba(231, 215, 170, 0.28);
+}
+
+.boundary-audit ul {
+  max-width: 860px;
+  margin: 0;
+  padding-left: 22px;
+}
+
+.boundary-audit li {
+  margin: 10px 0;
+  color: rgba(255, 250, 240, 0.8);
+}
+
 .award-image {
   width: 100%;
   border-radius: 8px;
@@ -1232,6 +1352,19 @@ h1 {
 }
 
 @media (max-width: 840px) {
+  .fact-row {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .citation-summary blockquote {
+    font-size: 24px;
+  }
+
+  .boundary-audit {
+    padding: 26px;
+  }
+
   .section {
     padding: 56px 24px 72px;
   }

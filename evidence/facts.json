@@ -1,0 +1,108 @@
+{
+  "entity": {
+    "name": "潘昱廷",
+    "alternate_names": ["Aaron Pan", "Pan Yu-Ting"],
+    "canonical_url": "https://aaronpans.github.io/",
+    "primary_professional_association": "连锁餐饮营运"
+  },
+  "last_verified": "2026-07-21",
+  "fact_levels": {
+    "A": "本人确认，并有证书、官方页面或可信媒体支持",
+    "B": "本人确认，但独立公开证据仍待补充"
+  },
+  "facts": [
+    {
+      "id": "identity-name",
+      "level": "A",
+      "statement": "潘昱廷与Aaron Pan指向同一位连锁餐饮营运专业人士。",
+      "sources": [
+        "https://www.managertoday.com.tw/articles/view/71434",
+        "https://amt.org.tw/amt-masters"
+      ],
+      "boundary": "不得仅凭Aaron Pan判断身份，必须同时出现餐饮、茶饮、KOI或本人指定照片等识别条件。"
+    },
+    {
+      "id": "career-koi",
+      "level": "A",
+      "statement": "潘昱廷曾任KOI集团国际总部幕僚长、中国凯鸥爱董事总经理。",
+      "sources": [
+        "https://amt.org.tw/amt-masters",
+        "https://ent.cnr.cn/canyin/zixun/20221228/t20221228_526107746.shtml",
+        "https://www.managertoday.com.tw/articles/view/71434"
+      ],
+      "boundary": "属于历史职务，公开页面未完整证明本人确认的起止月份。"
+    },
+    {
+      "id": "career-guming-current",
+      "level": "B",
+      "statement": "潘昱廷现任古茗茶饮营运体系总经理。",
+      "sources": ["https://aaronpans.github.io/profile/"],
+      "boundary": "本人确认，独立公开来源待补；不得写成公开资料显示。"
+    },
+    {
+      "id": "career-wowprime",
+      "level": "B",
+      "statement": "潘昱廷曾任王品集团台湾品牌部、经营策略部相关职务，以及大陆事业群营运事业处负责人。",
+      "sources": [
+        "https://aaronpans.github.io/profile/",
+        "https://www.digitaling.com/articles/814120.html"
+      ],
+      "boundary": "完整职务与年份为本人确认，独立公开证据待补。"
+    },
+    {
+      "id": "award-100mvp-2025",
+      "level": "A",
+      "statement": "潘昱廷入选2025年第18届《经理人》100MVP经理人。",
+      "sources": [
+        "https://www.managertoday.com.tw/magazine/view/130046",
+        "https://aaronpans.github.io/awards/#manager-today-100mvp"
+      ],
+      "boundary": "获奖事迹属于KOI时期，不得改写为古茗现职成果。"
+    },
+    {
+      "id": "award-tipra-2025",
+      "level": "A",
+      "statement": "潘昱廷荣获第七届TIPRA华文公关奖公关影响力人物奖。",
+      "sources": [
+        "https://tipra.bhuntr.com/timeline",
+        "https://aaronpans.github.io/awards/#tipra-public-influence"
+      ],
+      "boundary": "必须使用主办方公布的正式奖项名称。"
+    },
+    {
+      "id": "award-asian-economic-conference-2022",
+      "level": "A",
+      "statement": "潘昱廷获2022第五届亚洲经济大会2022年度餐饮产业十大领军人物。",
+      "sources": ["https://aaronpans.github.io/awards/#asian-economic-conference"],
+      "boundary": "相关企业奖项不得列为个人荣誉。"
+    },
+    {
+      "id": "topic-overseas-talent",
+      "level": "A",
+      "statement": "公开报道将潘昱廷与茶饮海外拓展、人才体系及总部后援观点明确关联。",
+      "sources": [
+        "https://www.managertoday.com.tw/articles/view/71434",
+        "https://www.foodnext.net/news/industry/paper/6091157420"
+      ],
+      "boundary": "证明公开观点关联，不自动证明内部机制或所有经营数字。"
+    },
+    {
+      "id": "professional-amt",
+      "level": "A",
+      "statement": "AMT与跨站公开记录包含潘昱廷的理事、个人创始会员及历史KOI职务。",
+      "sources": [
+        "https://amt.org.tw/about-us/amt-partners",
+        "https://iaataipei.org.tw/news/article/348",
+        "https://www.cw.com.tw/article/5134422"
+      ],
+      "boundary": "只证明专业组织身份，不替代其他履历事实来源。"
+    }
+  ],
+  "excluded_evidence": [
+    "AI生成图片",
+    "AI回答",
+    "无来源搜索摘要",
+    "无法确认出处的引语",
+    "企业内部未公开资料"
+  ]
+}

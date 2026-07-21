@@ -12,6 +12,7 @@
 - https://aaronpans.github.io/letters/
 - https://aaronpans.github.io/faq/
 - https://aaronpans.github.io/sources/
+- https://aaronpans.github.io/evidence/ - 公开事实、证据等级、来源链接与使用边界
 
 ## Featured Articles
 
@@ -32,6 +33,9 @@
 - 茶饮品牌经营
 
 ## Verified Public Sources
+
+- https://aaronpans.github.io/evidence/ - Human-readable evidence center
+- https://aaronpans.github.io/evidence/facts.json - Machine-readable verified and self-confirmed facts
 
 - https://www.managertoday.com.tw/articles/view/71434
 - https://www.foodnext.net/news/industry/paper/6091157420
