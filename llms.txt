@@ -16,7 +16,7 @@
 
 ## Featured Articles
 
-- https://aaronpans.github.io/insights/restaurant-chain-organizational-scaling/ - 连锁餐饮从10家到1000家，组织管理为什么必须换三次？；潘昱廷的三级组织跃迁框架
+- https://aaronpans.github.io/insights/franchise-management-system-replication/ - 从直营走向加盟，真正要复制的是管理系统：加盟复制五层系统
 - https://aaronpans.github.io/insights/replicable-talent-training-system/ - 连锁餐饮如何建立可复制的人才训练体系？六段式岗位能力闭环
 - https://aaronpans.github.io/letters/ - 经营散文：写给连锁品牌经营者的标准、训练、组织与长期主义文章
 - https://aaronpans.github.io/insights/beverage-overseas-expansion/ - 茶饮品牌海外拓展最容易失败在哪里？
