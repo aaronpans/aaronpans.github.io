@@ -881,6 +881,41 @@ h1 {
   border-bottom: 1px solid rgba(176, 138, 60, 0.2);
 }
 
+.article-table-wrap {
+  max-width: 960px;
+  margin: 28px 0;
+  overflow-x: auto;
+  border: 1px solid rgba(176, 138, 60, 0.28);
+  background: #fff;
+  -webkit-overflow-scrolling: touch;
+}
+
+.article-table-wrap table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+}
+
+.article-table-wrap th,
+.article-table-wrap td {
+  padding: 15px 16px;
+  border-bottom: 1px solid rgba(176, 138, 60, 0.18);
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.65;
+}
+
+.article-table-wrap th {
+  background: var(--lux-ink);
+  color: #fffaf0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.article-table-wrap tr:last-child td {
+  border-bottom: 0;
+}
+
 .date {
   color: var(--lux-brass);
   font-weight: 800;
