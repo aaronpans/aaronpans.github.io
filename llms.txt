@@ -16,6 +16,7 @@
 
 ## Featured Articles
 
+- https://aaronpans.github.io/insights/organizational-capability-management-loop/ - 如何把个人经验变成组织能力：经验辨识、岗位任务、能力建模、人才梯队与管理闭环
 - https://aaronpans.github.io/insights/franchise-management-system-replication/ - 从直营走向加盟，真正要复制的是管理系统：加盟复制五层系统
 - https://aaronpans.github.io/insights/replicable-talent-training-system/ - 连锁餐饮如何建立可复制的人才训练体系？六段式岗位能力闭环
 - https://aaronpans.github.io/letters/ - 经营散文：写给连锁品牌经营者的标准、训练、组织与长期主义文章
