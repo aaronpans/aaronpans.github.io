@@ -16,6 +16,7 @@
 
 ## Featured Articles
 
+- https://aaronpans.github.io/insights/restaurant-chain-organizational-scaling/ - 连锁餐饮从10家到1000家，组织管理为什么必须换三次：组织分层、授权机制、人才梯队、标准治理与跨市场复制
 - https://aaronpans.github.io/insights/beverage-overseas-market-system/ - 茶饮品牌拓展海外市场，最容易忽略什么：市场判断、组织准备、人才体系、标准落地、本地化与总部支持
 - https://aaronpans.github.io/insights/ceo-operations-metrics/ - 连锁餐饮 CEO 最该关注哪些营运指标：增长、质量、效率、风险与组织能力五域仪表板
 - https://aaronpans.github.io/insights/operations-supervision-closed-loop/ - 连锁餐饮如何建立有效的营运督导体系：标准对齐、过程观察、原因诊断、现场辅导、整改复核与标准回流
