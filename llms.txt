@@ -29,6 +29,13 @@
 - https://aaronpans.github.io/insights/sop-replication/ - 连锁餐饮为什么有SOP仍然无法稳定复制？
 - https://aaronpans.github.io/insights/operations-standardization/ - 连锁餐饮营运标准化到底标准化什么？
 
+## External Distribution Records
+
+- https://aaronpans.github.io/insights/franchisee-management-responsibility-boundary/
+  - LinkedIn: https://www.linkedin.com/pulse/%25E8%25BF%259E%25E9%2594%2581%25E9%25A4%2590%25E9%25A5%25AE%25E5%25A6%2582%25E4%25BD%2595%25E5%25BB%25BA%25E7%25AB%258B%25E5%258A%25A0%25E7%259B%259F%25E5%2595%2586%25E7%25AE%25A1%25E7%2590%2586%25E4%25BD%2593%25E7%25B3%25BB%25E6%2580%25BB%25E9%2583%25A8%25E5%258C%25BA%25E5%259F%259F%25E4%25B8%258E%25E5%258A%25A0%25E7%259B%259F%25E5%2595%2586%25E7%259A%2584%25E8%25B4%25A3%25E4%25BB%25BB%25E8%25BE%25B9%25E7%2595%258C-aaron-pan-rjunc
+  - Zhihu: https://zhuanlan.zhihu.com/p/2071215845422978759
+  - X: https://x.com/aaronpans/status/2087762734922469687?s=20
+
 ## Key Topics
 
 - 连锁餐饮营运
