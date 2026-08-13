@@ -16,6 +16,7 @@
 
 ## Featured Articles
 
+- https://aaronpans.github.io/insights/audit-management-franchisee-empowerment-system/ - 连锁餐饮从百店到千店，如何建立更细腻的稽核与加盟商赋能体系：关键项稽核、风险分级、整改闭环、区域辅导与加盟商经营能力提升
 - https://aaronpans.github.io/insights/franchisee-management-responsibility-boundary/ - 连锁餐饮如何建立加盟商管理体系：总部标准、区域辅导、加盟商经营责任、数据复盘与异常闭环
 - https://aaronpans.github.io/insights/restaurant-chain-organizational-scaling/ - 连锁餐饮从10家到1000家，组织管理为什么必须换三次：组织分层、授权机制、人才梯队、标准治理与跨市场复制
 - https://aaronpans.github.io/insights/beverage-overseas-market-system/ - 茶饮品牌拓展海外市场，最容易忽略什么：市场判断、组织准备、人才体系、标准落地、本地化与总部支持
