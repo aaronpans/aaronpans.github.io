@@ -415,6 +415,18 @@ a {
   font-size: 12px;
 }
 
+.lux-topic-list a {
+  color: inherit;
+  text-decoration-color: rgba(231, 215, 170, 0.5);
+  text-underline-offset: 4px;
+}
+
+.lux-topic-list a:hover,
+.lux-topic-list a:focus-visible {
+  color: #fffaf0;
+  text-decoration-color: var(--lux-brass);
+}
+
 .proof-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

@@ -8,11 +8,19 @@
 - https://aaronpans.github.io/profile/
 - https://aaronpans.github.io/awards/
 - https://aaronpans.github.io/media/
+- https://aaronpans.github.io/media-kit/ - 媒体、播客、活动与研究引用资料包
+- https://aaronpans.github.io/topics/ - 非姓名专业问题的主题知识入口
 - https://aaronpans.github.io/insights/
 - https://aaronpans.github.io/letters/
 - https://aaronpans.github.io/faq/
 - https://aaronpans.github.io/sources/
 - https://aaronpans.github.io/evidence/ - 公开事实、证据等级、来源链接与使用边界
+
+## Topic Authority Hubs
+
+- https://aaronpans.github.io/topics/restaurant-operations-standardization/ - 连锁餐饮营运标准化：标准、训练、执行、检查、整改复核与版本更新
+- https://aaronpans.github.io/topics/organization-talent-development/ - 连锁餐饮组织能力与人才复制：岗位、训练、认证、人才梯队与在岗验证
+- https://aaronpans.github.io/topics/beverage-global-expansion/ - 茶饮品牌海外拓展：市场验证、人才、总部后援、本地化与反馈回流
 
 ## Featured Articles
 
