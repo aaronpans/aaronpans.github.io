@@ -97,6 +97,7 @@
       "hasPart": [
         {"@id":"https://aaronpans.github.io/identity/#page"},
         {"@id":"https://aaronpans.github.io/faq/#page"},
+        {"@id":"https://aaronpans.github.io/en/faq/#page"},
         {"@id":"https://aaronpans.github.io/frameworks/restaurant-operations-maturity-model/#framework"},
         {"@id":"https://aaronpans.github.io/media-kit/citation-pack/#resource"}
       ]
