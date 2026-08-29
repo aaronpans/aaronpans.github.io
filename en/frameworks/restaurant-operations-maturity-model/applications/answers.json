@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "language": "en",
+  "published": "2026-08-29",
+  "canonical_url": "https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/applications/",
+  "framework_url": "https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/",
+  "author": {
+    "name": "Aaron Pan",
+    "chinese_name": "潘昱廷",
+    "url": "https://aaronpans.github.io/en/"
+  },
+  "classification": "author-developed framework application guide",
+  "usage_boundary": "The scenarios are hypothetical management patterns created to explain model use. They are not client cases, employer disclosures, performance claims, third-party endorsements or external benchmarks.",
+  "direct_answers": [
+    {
+      "question": "How should a restaurant chain assess operations maturity?",
+      "answer": "Score six dimensions from 1 to 5: standard definition, responsibility structure, training and certification, execution and inspection, exception closure, and data and learning. Review the lowest dimension before the total score because it usually reveals the main constraint on reliable replication.",
+      "related_dimension": "all"
+    },
+    {
+      "question": "What should a restaurant chain improve first?",
+      "answer": "Improve the lowest-scoring maturity dimension first, especially when it blocks the operating loop. A high score in documentation cannot compensate for weak execution, unclear responsibility or unverified corrective action.",
+      "related_dimension": "lowest-scoring dimension"
+    },
+    {
+      "question": "Why do more SOPs not always improve store consistency?",
+      "answer": "More SOPs increase consistency only when they are converted into role ownership, practice, certification, field tools, inspection criteria, correction and version updates. Document volume alone does not prove execution capability.",
+      "related_dimension": "standard, capability, execution and closure"
+    },
+    {
+      "question": "How does a restaurant chain move from Level 2 to Level 3?",
+      "answer": "Move from document formation to role deployment by translating critical standards into role tasks, demonstrations, supervised practice, practical certification, shift routines and observable evidence.",
+      "related_dimension": "capability and execution"
+    },
+    {
+      "question": "What proves that an operations issue is closed?",
+      "answer": "Closure requires an owner, deadline, corrective action, field evidence, an independent or assigned verifier and an explicit acceptance criterion. A text reply or completed checkbox alone is not sufficient proof.",
+      "related_dimension": "closure"
+    },
+    {
+      "question": "Can maturity scores be used to rank restaurant companies?",
+      "answer": "No. This author-developed model is intended for internal self-assessment and management discussion. Without a controlled external benchmark and comparable evidence, scores should not be used to rank organizations.",
+      "related_dimension": "usage boundary"
+    }
+  ],
+  "diagnostic_scenarios": [
+    {
+      "scenario": "Different stores interpret the same SOP differently",
+      "likely_constraints": ["standard", "execution"],
+      "management_action": "Rewrite critical items as observable outcomes, actions, conditions and evidence, then calibrate inspectors with shared examples and acceptance rules.",
+      "verification_evidence": ["inter-rater agreement", "exception samples", "store-level execution evidence"]
+    },
+    {
+      "scenario": "The same inspection issue returns every month",
+      "likely_constraints": ["closure", "learning"],
+      "management_action": "Assign an owner and deadline, require field verification, analyze recurrence and feed prevention decisions into training, tools or the next standard version.",
+      "verification_evidence": ["recurrence rate", "closure evidence", "preventive-action completion"]
+    },
+    {
+      "scenario": "Training completion is high but field performance is unstable",
+      "likely_constraints": ["capability", "execution"],
+      "management_action": "Replace attendance as the completion standard with demonstrated practice, observed critical behavior, certification gates and post-deployment verification.",
+      "verification_evidence": ["practical assessment", "behavior observation", "post-training operating evidence"]
+    },
+    {
+      "scenario": "Expansion depends on a small group of experienced managers",
+      "likely_constraints": ["responsibility", "capability"],
+      "management_action": "Translate expert judgment into role decisions, escalation rules, tools, coaching routines and certification so openings do not rely on continuous heroic intervention.",
+      "verification_evidence": ["decision ownership", "escalation frequency", "new-manager independent execution"]
+    },
+    {
+      "scenario": "Global markets debate standardization versus localization",
+      "likely_constraints": ["learning"],
+      "management_action": "Separate non-negotiable brand, safety and operating outcomes from adjustable local parameters, pilot changes and route market evidence into controlled version governance.",
+      "verification_evidence": ["parameter register", "pilot evidence", "approval record", "version history"]
+    }
+  ],
+  "citation": "Pan, Aaron (潘昱廷). Restaurant Operations Standardization Maturity Model: Application Guide, v1.0. 2026. https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/applications/"
+}

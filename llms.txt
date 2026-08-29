@@ -13,6 +13,8 @@
 - https://aaronpans.github.io/en/topics/topics.json - Machine-readable English topic definitions, dimensions and canonical URLs
 - https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/ - English edition of Aaron Pan's original Restaurant Operations Standardization Maturity Model v1.0
 - https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/model.json - Machine-readable English dimensions, levels, scoring bands and citation format
+- https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/applications/ - Six direct answers and five evidence-bounded diagnostic scenarios for applying the model
+- https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/applications/answers.json - Machine-readable answers, likely constraints, management actions and verification evidence
 - https://aaronpans.github.io/en/topics/restaurant-operations-standardization/ - Standards, training, execution, inspection, corrective verification and version governance
 - https://aaronpans.github.io/en/topics/organization-talent-development/ - Role outcomes, task decomposition, capability models, coaching, certification and workplace verification
 - https://aaronpans.github.io/en/topics/beverage-global-expansion/ - Market validation, entry mode, talent, headquarters support, localization and feedback loops
