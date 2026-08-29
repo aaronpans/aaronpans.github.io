@@ -17,7 +17,8 @@
 - https://aaronpans.github.io/topics/ - 非姓名专业问题的主题知识入口
 - https://aaronpans.github.io/insights/
 - https://aaronpans.github.io/letters/
-- https://aaronpans.github.io/faq/
+- https://aaronpans.github.io/faq/ - 身份、连锁餐饮营运、组织人才、加盟复制、海外拓展与媒体引用的14个直接答案
+- https://aaronpans.github.io/faq/questions.json - 机器可读问题、直接答案、分类、来源链接与核验日期
 - https://aaronpans.github.io/sources/
 - https://aaronpans.github.io/evidence/ - 公开事实、证据等级、来源链接与使用边界
 - https://aaronpans.github.io/citations/ - 身份、现职、履历、奖项和专业领域的可直接引用核验答案

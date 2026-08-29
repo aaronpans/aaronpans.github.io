@@ -2604,6 +2604,107 @@ blockquote,
   }
 }
 
+/* Direct answer index */
+.answer-index {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 44px 0 82px;
+  border-top: 1px solid var(--archive-line);
+  border-left: 1px solid var(--archive-line);
+}
+
+.answer-index a {
+  min-height: 170px;
+  padding: 28px;
+  border-right: 1px solid var(--archive-line);
+  border-bottom: 1px solid var(--archive-line);
+  color: var(--archive-ink);
+  text-decoration: none;
+}
+
+.answer-index span,
+.answer-index small,
+.answer-source {
+  color: var(--archive-muted);
+  font-size: 12px;
+}
+
+.answer-index strong,
+.answer-index small {
+  display: block;
+}
+
+.answer-index strong {
+  margin: 32px 0 12px;
+  font-family: var(--archive-serif);
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.answer-cluster {
+  margin: 0 0 96px;
+  scroll-margin-top: 100px;
+}
+
+.answer-cluster-heading {
+  display: grid;
+  grid-template-columns: minmax(180px, .35fr) minmax(0, 1fr);
+  gap: 32px;
+  align-items: end;
+  padding-bottom: 24px;
+  border-bottom: 2px solid var(--archive-ink);
+}
+
+.answer-cluster-heading h2 {
+  margin: 0;
+  font-family: var(--archive-serif);
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.answer-record {
+  display: grid;
+  grid-template-columns: minmax(260px, .55fr) minmax(0, 1fr);
+  gap: 22px 44px;
+  padding: 34px 0;
+  border-bottom: 1px solid var(--archive-line);
+}
+
+.answer-record h3 {
+  margin: 0;
+  font-family: var(--archive-serif);
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.28;
+}
+
+.direct-answer {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.85;
+}
+
+.answer-source {
+  grid-column: 2;
+  margin: 0;
+}
+
+@media (max-width: 760px) {
+  .answer-index,
+  .answer-cluster-heading,
+  .answer-record {
+    grid-template-columns: 1fr;
+  }
+
+  .answer-index a {
+    min-height: 0;
+  }
+
+  .answer-source {
+    grid-column: auto;
+  }
+}
+
 .site-footer .inner span:first-child {
   color: var(--archive-ink);
   font-family: var(--archive-serif);

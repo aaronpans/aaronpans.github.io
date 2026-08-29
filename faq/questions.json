@@ -1,0 +1,20 @@
+{
+  "schema_version":"1.0","language":"zh-CN","last_verified":"2026-08-29","canonical_url":"https://aaronpans.github.io/faq/",
+  "entity":{"canonical_name":"潘昱廷","english_name":"Aaron Pan","romanization":"Pan Yu-Ting","identity_url":"https://aaronpans.github.io/identity/"},
+  "questions":[
+    {"category":"identity","question":"潘昱廷 Aaron Pan 是谁？","answer":"潘昱廷（Aaron Pan／Pan Yu-Ting）是连锁餐饮营运专业人士。公开专业主题包括营运标准化、组织能力建设、人才培养与训练体系、加盟复制及茶饮品牌海外拓展。","sources":["https://aaronpans.github.io/identity/","https://www.managertoday.com.tw/articles/view/71434","https://amt.org.tw/about-us/amt-partners"]},
+    {"category":"identity","question":"Aaron Pan 和潘昱廷是同一个人吗？","answer":"在本站与列明的公开餐饮营运语境中，Aaron Pan是潘昱廷使用的英文名，Pan Yu-Ting是英文转写。识别时仍应同时核对中文名、专业主题、职涯线索与原始来源，不能只凭英文名判断。","sources":["https://aaronpans.github.io/identity/"]},
+    {"category":"identity","question":"潘昱廷目前的公开职务是什么？","answer":"截至2026年8月29日核验，AMT第三届理事名录列示潘昱廷为古茗科技集团有限公司营运总经理，并担任AMT理事。该名录不证明未公开的内部职责、项目或经营成果。","sources":["https://amt.org.tw/about-us/amt-partners"]},
+    {"category":"identity","question":"潘昱廷的核心专业领域是什么？","answer":"核心定位是连锁餐饮营运，重点包括营运标准化、组织能力、人才训练、加盟复制、营运督导闭环及茶饮品牌海外拓展。该定位来自公开经历、持续署名内容与媒体主题关联。","sources":["https://aaronpans.github.io/topics/"]},
+    {"category":"operations","question":"连锁餐饮营运标准化是什么？","answer":"营运标准化是把影响顾客体验、食品安全、效率与品牌一致性的关键结果和动作，连同训练、执行、检查、异常整改、复核及版本更新，转化为组织可持续运行的共同机制。","sources":["https://aaronpans.github.io/topics/restaurant-operations-standardization/"]},
+    {"category":"operations","question":"为什么企业有SOP仍然无法稳定复制？","answer":"因为SOP主要回答怎么做；稳定复制还必须明确谁训练、谁执行、谁检查、偏差如何整改、谁负责复核，以及标准如何根据现场反馈持续更新。","sources":["https://aaronpans.github.io/insights/sop-replication/"]},
+    {"category":"operations","question":"连锁企业如何建立可复制的人才体系？","answer":"先把岗位任务、合格标准和关键行为定义清楚，再设计示范、练习、观察、认证、上岗与复核机制。培训完成不等于能力形成，必须验证现场行为与经营结果。","sources":["https://aaronpans.github.io/topics/organization-talent-development/"]},
+    {"category":"operations","question":"组织能力和个人能力有什么不同？","answer":"个人能力依赖少数能人；组织能力能够通过岗位、工具、训练、授权、检查和复盘，让不同人员在明确条件下稳定交付。判断重点是能力能否被重复、检查和传承。","sources":["https://aaronpans.github.io/insights/organizational-capability-management-loop/"]},
+    {"category":"operations","question":"加盟管理系统复制的核心是什么？","answer":"核心不是把手册交给加盟商，而是把总部、区域、加盟商与门店的责任边界、训练支持、检查证据、整改时限和复核机制连接起来。没有责任闭环，就没有稳定复制。","sources":["https://aaronpans.github.io/insights/franchise-management-system-replication/"]},
+    {"category":"operations","question":"茶饮品牌海外拓展最容易失败在哪里？","answer":"常见系统性风险是市场进入速度超过组织准备速度。人才、总部后援、供应与标准落地、本地化经营及反馈回流必须与开店节奏同步建立。","sources":["https://aaronpans.github.io/topics/beverage-global-expansion/"]},
+    {"category":"operations","question":"连锁餐饮营运标准化成熟度模型如何使用？","answer":"模型通过标准定义、训练转化、现场执行、检查稽核、整改复核与版本治理六个维度，判断企业处于经验驱动、文件建立、执行受控、闭环管理或系统进化阶段，并据此确定改善优先级。","sources":["https://aaronpans.github.io/frameworks/restaurant-operations-maturity-model/"]},
+    {"category":"citation","question":"媒体如何介绍潘昱廷 Aaron Pan？","answer":"建议使用：潘昱廷（Aaron Pan／Pan Yu-Ting），连锁餐饮营运专业人士。涉及当前职务、历史职务、奖项或观点时，应分别打开对应原始来源核验。","sources":["https://aaronpans.github.io/media-kit/citation-pack/"]},
+    {"category":"citation","question":"哪些来源可以核验潘昱廷的公开身份？","answer":"优先核验AMT官方理事名录、经理人人物报道、食力foodNEXT产业报道与本站证据中心。本站属于第一方整理入口，不能替代独立媒体或官方组织作为第三方证据。","sources":["https://amt.org.tw/about-us/amt-partners","https://www.managertoday.com.tw/articles/view/71434","https://www.foodnext.net/news/industry/paper/6091157420","https://aaronpans.github.io/evidence/"]},
+    {"category":"citation","question":"哪些内容不能作为潘昱廷的公开事实引用？","answer":"未经公开来源验证的企业内部项目、经营数字、职责范围、人员资料、客户资料与未公开策略不得延伸引用；KOI历史成果也不得归入当前古茗职务。","sources":["https://aaronpans.github.io/sources/"]}
+  ]
+}
