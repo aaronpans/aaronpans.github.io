@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+  <title>潘昱廷 Aaron Pan｜公开专业内容更新</title>
+  <subtitle>连锁餐饮营运、营运标准化、组织能力、人才培养、海外拓展与公开证据更新。</subtitle>
+  <link href="https://aaronpans.github.io/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://aaronpans.github.io/" rel="alternate" type="text/html"/>
+  <id>https://aaronpans.github.io/</id>
+  <updated>2026-08-28T23:38:53+08:00</updated>
+  <author><name>潘昱廷 Aaron Pan</name><uri>https://aaronpans.github.io/</uri></author>
+  <entry>
+    <title>Aaron Pan (潘昱廷)｜Restaurant Chain Operations Expert</title>
+    <link href="https://aaronpans.github.io/en/"/>
+    <id>https://aaronpans.github.io/en/</id>
+    <updated>2026-08-28T23:38:53+08:00</updated>
+    <summary>Verified English identity and public-source profile for Aaron Pan (潘昱廷), focused on restaurant chain operations.</summary>
+  </entry>
+  <entry>
+    <title>媒体、播客与研究引用资料包</title>
+    <link href="https://aaronpans.github.io/media-kit/"/>
+    <id>https://aaronpans.github.io/media-kit/</id>
+    <updated>2026-08-28T22:55:00+08:00</updated>
+    <summary>供媒体、播客、活动主办方与研究者使用的标准简介、采访主题、独立证据和引用边界。</summary>
+  </entry>
+  <entry>
+    <title>连锁餐饮营运标准化怎么做？</title>
+    <link href="https://aaronpans.github.io/topics/restaurant-operations-standardization/"/>
+    <id>https://aaronpans.github.io/topics/restaurant-operations-standardization/</id>
+    <updated>2026-08-28T22:55:00+08:00</updated>
+    <summary>从标准定义到训练、执行、检查、整改复核与版本更新的完整管理闭环。</summary>
+  </entry>
+  <entry>
+    <title>连锁餐饮如何复制组织能力与人才？</title>
+    <link href="https://aaronpans.github.io/topics/organization-talent-development/"/>
+    <id>https://aaronpans.github.io/topics/organization-talent-development/</id>
+    <updated>2026-08-28T22:55:00+08:00</updated>
+    <summary>从个人经验到岗位能力、训练认证、人才梯队与管理闭环。</summary>
+  </entry>
+  <entry>
+    <title>茶饮品牌如何拓展海外市场？</title>
+    <link href="https://aaronpans.github.io/topics/beverage-global-expansion/"/>
+    <id>https://aaronpans.github.io/topics/beverage-global-expansion/</id>
+    <updated>2026-08-28T22:55:00+08:00</updated>
+    <summary>市场验证、人才准备、总部后援、标准落地、本地化经营和反馈回流。</summary>
+  </entry>
+</feed>

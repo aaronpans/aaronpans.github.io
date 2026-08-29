@@ -1834,3 +1834,4 @@ h1 {
     gap: 4px;
   }
 }
+.identity-name { display: inline-block; white-space: nowrap; }

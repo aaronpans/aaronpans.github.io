@@ -5,6 +5,7 @@
 ## Core Identity
 
 - https://aaronpans.github.io/about/
+- https://aaronpans.github.io/en/ - Verified English identity for Aaron Pan + 潘昱廷 + restaurant chain operations
 - https://aaronpans.github.io/profile/
 - https://aaronpans.github.io/awards/
 - https://aaronpans.github.io/media/
@@ -15,6 +16,7 @@
 - https://aaronpans.github.io/faq/
 - https://aaronpans.github.io/sources/
 - https://aaronpans.github.io/evidence/ - 公开事实、证据等级、来源链接与使用边界
+- https://aaronpans.github.io/feed.xml - Atom 1.0 recent-update feed
 
 ## Topic Authority Hubs
 
