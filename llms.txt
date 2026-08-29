@@ -11,6 +11,9 @@
 - https://aaronpans.github.io/awards/
 - https://aaronpans.github.io/media/
 - https://aaronpans.github.io/media-kit/ - 媒体、播客、活动与研究引用资料包
+- https://aaronpans.github.io/media-kit/citation-pack/ - 供独立媒体、协会与活动主办方使用的中英文标准简介、链接选择与引用边界
+- https://aaronpans.github.io/media-kit/citation-pack/bios.json - 机器可读中英文简介、证据锚点、链接映射与使用边界
+- https://aaronpans.github.io/media-kit/citation-pack/bios.txt - 可直接复制的纯文字中英文引用包
 - https://aaronpans.github.io/topics/ - 非姓名专业问题的主题知识入口
 - https://aaronpans.github.io/insights/
 - https://aaronpans.github.io/letters/
