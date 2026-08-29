@@ -7,6 +7,7 @@
   },
   "last_verified": "2026-08-29",
   "entity_graph": "https://aaronpans.github.io/entity.jsonld",
+  "identity_resolution_page": "https://aaronpans.github.io/identity/",
   "citation_page": "https://aaronpans.github.io/citations/",
   "fact_levels": {
     "A": "本人确认，并有证书、官方页面或可信媒体支持",

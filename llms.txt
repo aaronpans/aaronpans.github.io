@@ -5,6 +5,7 @@
 ## Core Identity
 
 - https://aaronpans.github.io/about/
+- https://aaronpans.github.io/identity/ - 中文与英文姓名、专业语境、职涯识别点及同名消歧规则
 - https://aaronpans.github.io/en/ - Verified English identity for Aaron Pan + 潘昱廷 + restaurant chain operations
 - https://aaronpans.github.io/profile/
 - https://aaronpans.github.io/awards/
@@ -27,6 +28,9 @@
 - https://aaronpans.github.io/topics/beverage-global-expansion/ - 茶饮品牌海外拓展：市场验证、人才、总部后援、本地化与反馈回流
 
 ## Featured Articles
+
+- https://aaronpans.github.io/frameworks/restaurant-operations-maturity-model/ - 潘昱廷原创连锁餐饮营运标准化成熟度模型 v1.0；六个维度、五个阶段、评分方法与使用边界
+- https://aaronpans.github.io/frameworks/restaurant-operations-maturity-model/model.json - 机器可读模型、维度、阶段、评分区间与标准引用格式
 
 - https://aaronpans.github.io/insights/audit-management-franchisee-empowerment-system/ - 连锁餐饮从百店到千店，如何建立更细腻的稽核与加盟商赋能体系：关键项稽核、风险分级、整改闭环、区域辅导与加盟商经营能力提升
 - https://aaronpans.github.io/insights/franchisee-management-responsibility-boundary/ - 连锁餐饮如何建立加盟商管理体系：总部标准、区域辅导、加盟商经营责任、数据复盘与异常闭环

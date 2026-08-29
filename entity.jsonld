@@ -10,7 +10,8 @@
       "url": "https://aaronpans.github.io/",
       "mainEntityOfPage": [
         "https://aaronpans.github.io/about/",
-        "https://aaronpans.github.io/en/"
+        "https://aaronpans.github.io/en/",
+        "https://aaronpans.github.io/identity/"
       ],
       "image": {
         "@type": "ImageObject",
@@ -73,6 +74,11 @@
           "@type": "WebPage",
           "name": "潘昱廷 Aaron Pan 可引用事实核验",
           "url": "https://aaronpans.github.io/citations/"
+        },
+        {
+          "@type": "ProfilePage",
+          "name": "潘昱廷 Aaron Pan 身份核验与同名消歧",
+          "url": "https://aaronpans.github.io/identity/"
         }
       ]
     },
@@ -82,7 +88,11 @@
       "url": "https://aaronpans.github.io/",
       "name": "潘昱廷 Aaron Pan",
       "inLanguage": ["zh-CN", "en"],
-      "about": {"@id": "https://aaronpans.github.io/#person-aaron-pan"}
+      "about": {"@id": "https://aaronpans.github.io/#person-aaron-pan"},
+      "hasPart": [
+        {"@id":"https://aaronpans.github.io/identity/#page"},
+        {"@id":"https://aaronpans.github.io/frameworks/restaurant-operations-maturity-model/#framework"}
+      ]
     }
   ]
 }

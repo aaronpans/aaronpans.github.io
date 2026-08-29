@@ -1,0 +1,42 @@
+{
+  "name": "连锁餐饮营运标准化成熟度模型",
+  "english_name": "Restaurant Operations Standardization Maturity Model",
+  "version": "1.0",
+  "published": "2026-08-29",
+  "author": {
+    "name": "潘昱廷",
+    "alternate_name": "Aaron Pan",
+    "url": "https://aaronpans.github.io/"
+  },
+  "canonical_url": "https://aaronpans.github.io/frameworks/restaurant-operations-maturity-model/",
+  "classification": "author-developed management framework",
+  "usage_boundary": "用于管理自评与讨论，不是国家标准、行业认证、统计基准或任何企业内部制度。分数用于识别短板，不用于企业间排名。",
+  "dimensions": [
+    {"id": "standard", "name": "标准定义", "question": "关键结果、动作、条件与证据是否明确？"},
+    {"id": "responsibility", "name": "责任结构", "question": "谁制定、训练、执行、检查、整改与复核是否清楚？"},
+    {"id": "capability", "name": "训练认证", "question": "标准是否转化为示范、练习、观察、认证与复训？"},
+    {"id": "execution", "name": "执行检查", "question": "标准是否进入班次、岗位、工具与一致检查口径？"},
+    {"id": "closure", "name": "异常闭环", "question": "问题是否有责任人、期限、复核与关闭标准？"},
+    {"id": "learning", "name": "数据学习", "question": "数据、重复问题与现场反馈是否推动标准更新？"}
+  ],
+  "levels": [
+    {"score": 1, "name": "个人依赖", "definition": "结果主要依赖少数熟手、店长或区域主管的经验。"},
+    {"score": 2, "name": "文件成形", "definition": "已有文件与表单，但训练、执行和检查尚未形成稳定闭环。"},
+    {"score": 3, "name": "岗位落地", "definition": "关键标准进入岗位训练、认证、班次与现场执行。"},
+    {"score": 4, "name": "闭环治理", "definition": "检查、整改、复核、责任与数据形成可追踪管理闭环。"},
+    {"score": 5, "name": "持续进化", "definition": "跨区域反馈、经营数据和复盘能持续推动标准迭代与组织学习。"}
+  ],
+  "scoring": {
+    "minimum": 6,
+    "maximum": 30,
+    "rule": "六个维度各评1至5分。先看最低维度，再看总分；最低维度通常是复制稳定性的主要约束。",
+    "bands": [
+      {"range": "6-10", "interpretation": "个人驱动"},
+      {"range": "11-15", "interpretation": "文件驱动"},
+      {"range": "16-21", "interpretation": "岗位驱动"},
+      {"range": "22-26", "interpretation": "闭环驱动"},
+      {"range": "27-30", "interpretation": "学习驱动"}
+    ]
+  },
+  "citation": "潘昱廷（Aaron Pan），《连锁餐饮营运标准化成熟度模型》v1.0，2026，https://aaronpans.github.io/frameworks/restaurant-operations-maturity-model/"
+}

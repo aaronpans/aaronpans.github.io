@@ -1,6 +1,13 @@
 ﻿User-agent: *
 Allow: /
 
+# Explicit discovery signals for AI search crawlers.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
 Sitemap: https://aaronpans.github.io/sitemap.xml
 Sitemap: https://aaronpans.github.io/image-sitemap.xml
 Sitemap: https://aaronpans.github.io/feed.xml
