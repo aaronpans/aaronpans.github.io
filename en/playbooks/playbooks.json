@@ -1,0 +1,56 @@
+{
+  "schema_version":"1.0",
+  "language":"en",
+  "published":"2026-08-29",
+  "canonical_url":"https://aaronpans.github.io/en/playbooks/",
+  "author":{"name":"Aaron Pan","chinese_name":"潘昱廷","url":"https://aaronpans.github.io/en/"},
+  "classification":"author-developed baseline governance templates",
+  "usage_boundary":"Adapt roles, authority, risk levels and service times before use. These templates are not legal requirements, accredited certifications, universal organization designs or disclosures of any company's internal process.",
+  "raci":{
+    "url":"https://aaronpans.github.io/en/playbooks/restaurant-operations-raci/",
+    "legend":{"R":"Responsible: performs the work","A":"Accountable: owns the outcome and final decision","C":"Consulted: provides input before action","I":"Informed: receives the outcome"},
+    "roles":["HQ standard owner","regional operations","store manager","trainer or coach","frontline role","assigned verifier"],
+    "activities":[
+      {"activity":"Define or update a critical standard","HQ standard owner":"A/R","regional operations":"C","store manager":"C","trainer or coach":"C","frontline role":"I","assigned verifier":"C"},
+      {"activity":"Convert the standard into training and assessment","HQ standard owner":"A","regional operations":"C","store manager":"C","trainer or coach":"R","frontline role":"I","assigned verifier":"C"},
+      {"activity":"Assign training and readiness deadlines","HQ standard owner":"I","regional operations":"A","store manager":"R","trainer or coach":"C","frontline role":"I","assigned verifier":"I"},
+      {"activity":"Execute the standard in the store","HQ standard owner":"I","regional operations":"C","store manager":"A","trainer or coach":"C","frontline role":"R","assigned verifier":"I"},
+      {"activity":"Inspect critical execution evidence","HQ standard owner":"I","regional operations":"A","store manager":"C","trainer or coach":"I","frontline role":"I","assigned verifier":"R"},
+      {"activity":"Correct a store-level deviation","HQ standard owner":"I","regional operations":"C","store manager":"A","trainer or coach":"C","frontline role":"R","assigned verifier":"I"},
+      {"activity":"Verify and accept closure","HQ standard owner":"I","regional operations":"A","store manager":"C","trainer or coach":"I","frontline role":"I","assigned verifier":"R"},
+      {"activity":"Analyze recurrence and approve system change","HQ standard owner":"A","regional operations":"R","store manager":"C","trainer or coach":"C","frontline role":"I","assigned verifier":"C"}
+    ]
+  },
+  "closure_workflow":{
+    "url":"https://aaronpans.github.io/en/playbooks/store-inspection-closure-workflow/",
+    "steps":[
+      {"position":1,"name":"Detect and classify","exit_criterion":"Deviation and provisional risk level recorded"},
+      {"position":2,"name":"Capture evidence","exit_criterion":"Location, time, standard reference and field proof attached"},
+      {"position":3,"name":"Assign owner and deadline","exit_criterion":"One accountable owner accepts an organization-defined deadline"},
+      {"position":4,"name":"Contain immediate risk","exit_criterion":"Unsafe or material exposure is controlled before normal operation continues"},
+      {"position":5,"name":"Correct the deviation","exit_criterion":"Corrective action completed with evidence"},
+      {"position":6,"name":"Verify effectiveness","exit_criterion":"Assigned verifier confirms the acceptance criterion in the field"},
+      {"position":7,"name":"Close, reject or escalate","exit_criterion":"Decision and rationale recorded"},
+      {"position":8,"name":"Analyze recurrence and prevent","exit_criterion":"Recurring or systemic issues trigger root-cause and system action"}
+    ]
+  },
+  "certification_checklist":{
+    "url":"https://aaronpans.github.io/en/playbooks/restaurant-training-certification-checklist/",
+    "items":[
+      "Role and task scope are defined",
+      "Entry prerequisites are confirmed",
+      "Critical outcomes, behaviors and conditions are observable",
+      "The standard is demonstrated",
+      "The learner practices under supervision",
+      "Risk-critical errors and escalation rules are understood",
+      "An authorized assessor observes performance",
+      "Pass criteria are applied consistently",
+      "Evidence and assessor identity are recorded",
+      "The decision is pass, conditional deployment or retraining",
+      "Independent-work authority is explicit",
+      "Post-deployment verification and renewal triggers are scheduled"
+    ],
+    "outcomes":["pass","conditional deployment","retraining required"]
+  },
+  "related_framework":"https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/"
+}

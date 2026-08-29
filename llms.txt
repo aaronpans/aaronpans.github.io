@@ -20,6 +20,11 @@
 - https://aaronpans.github.io/en/decisions/sop-vs-operating-system/ - SOP versus operating system: task documentation compared with a repeatable management system
 - https://aaronpans.github.io/en/decisions/training-completion-vs-capability-certification/ - Training completion versus observed capability certification
 - https://aaronpans.github.io/en/decisions/inspection-vs-closed-loop-governance/ - Inspection versus corrective verification, closure and recurrence prevention
+- https://aaronpans.github.io/en/playbooks/ - Restaurant operations governance playbooks for responsibility, closure and capability certification
+- https://aaronpans.github.io/en/playbooks/playbooks.json - Machine-readable RACI, closure workflow and certification checklist
+- https://aaronpans.github.io/en/playbooks/restaurant-operations-raci/ - Baseline RACI from standard definition through verified closure
+- https://aaronpans.github.io/en/playbooks/store-inspection-closure-workflow/ - Eight-stage store finding workflow with evidence and exit criteria
+- https://aaronpans.github.io/en/playbooks/restaurant-training-certification-checklist/ - Twelve-item role capability certification checklist
 - https://aaronpans.github.io/en/topics/restaurant-operations-standardization/ - Standards, training, execution, inspection, corrective verification and version governance
 - https://aaronpans.github.io/en/topics/organization-talent-development/ - Role outcomes, task decomposition, capability models, coaching, certification and workplace verification
 - https://aaronpans.github.io/en/topics/beverage-global-expansion/ - Market validation, entry mode, talent, headquarters support, localization and feedback loops

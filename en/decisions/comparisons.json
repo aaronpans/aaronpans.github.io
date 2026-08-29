@@ -32,5 +32,6 @@
       "decision_rule":"Use inspection to detect; use closed-loop governance whenever the deviation is material, recurring or risk-bearing."
     }
   ],
-  "related_framework":"https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/"
+  "related_framework":"https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/",
+  "related_playbooks":"https://aaronpans.github.io/en/playbooks/"
 }

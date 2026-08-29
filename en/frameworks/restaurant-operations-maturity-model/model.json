@@ -14,6 +14,7 @@
   "application_guide_url": "https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/applications/",
   "application_data_url": "https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/applications/answers.json",
   "decision_guides_url": "https://aaronpans.github.io/en/decisions/",
+  "governance_playbooks_url": "https://aaronpans.github.io/en/playbooks/",
   "classification": "author-developed management framework",
   "usage_boundary": "For organizational self-assessment, discussion and improvement. It is not a government standard, industry certification, statistical benchmark or disclosure of any company's internal system. Scores identify constraints and are not intended for rankings between organizations.",
   "dimensions": [
