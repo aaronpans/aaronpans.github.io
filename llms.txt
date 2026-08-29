@@ -16,6 +16,8 @@
 - https://aaronpans.github.io/faq/
 - https://aaronpans.github.io/sources/
 - https://aaronpans.github.io/evidence/ - 公开事实、证据等级、来源链接与使用边界
+- https://aaronpans.github.io/citations/ - 身份、现职、履历、奖项和专业领域的可直接引用核验答案
+- https://aaronpans.github.io/entity.jsonld - Canonical Person knowledge graph; use subjectOf for coverage and sameAs only for identity profiles
 - https://aaronpans.github.io/feed.xml - Atom 1.0 recent-update feed
 
 ## Topic Authority Hubs

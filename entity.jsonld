@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://aaronpans.github.io/#person-aaron-pan",
+      "name": "潘昱廷",
+      "alternateName": ["Aaron Pan", "Pan Yu-Ting", "panyuting"],
+      "identifier": "aaronpans",
+      "url": "https://aaronpans.github.io/",
+      "mainEntityOfPage": [
+        "https://aaronpans.github.io/about/",
+        "https://aaronpans.github.io/en/"
+      ],
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://aaronpans.github.io/assets/images/pan-yuting-aaron-pan-restaurant-operations-expert.jpg",
+        "width": 1152,
+        "height": 1536
+      },
+      "jobTitle": "连锁餐饮营运专家",
+      "description": "潘昱廷（Aaron Pan）是连锁餐饮营运专家，公开专业主题包括营运标准化、组织能力、人才培养、加盟复制与茶饮品牌海外拓展。",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "古茗科技集团有限公司",
+        "alternateName": "Guming"
+      },
+      "memberOf": {
+        "@type": "Organization",
+        "name": "AMT亚太行销数位转型联盟协会",
+        "alternateName": "Asia-Pacific MarTech Transformation Alliance",
+        "url": "https://amt.org.tw/"
+      },
+      "knowsAbout": [
+        "连锁餐饮营运",
+        "营运标准化",
+        "组织能力建设",
+        "人才培养与训练体系",
+        "加盟与连锁复制",
+        "茶饮品牌海外拓展"
+      ],
+      "award": [
+        "2025年第18届《经理人》100MVP经理人",
+        "第七届华文公关奖公关影响力人物奖",
+        "2022（第五届）亚洲经济大会2022年度餐饮产业十大领军人物"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/aaronpan1009/",
+        "https://x.com/aaronpans"
+      ],
+      "subjectOf": [
+        {
+          "@type": "ProfilePage",
+          "name": "AMT第三届理事名录",
+          "url": "https://amt.org.tw/about-us/amt-partners"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "台灣手搖飲進軍巴黎、杜拜！KOI 如何化解海外人才的孤單，將珍奶推向全球？",
+          "url": "https://www.managertoday.com.tw/articles/view/71434"
+        },
+        {
+          "@type": "NewsArticle",
+          "name": "手搖飲出海難在哪？KOI前幕僚長：不是資金而是人才",
+          "url": "https://www.foodnext.net/news/industry/paper/6091157420"
+        },
+        {
+          "@type": "WebPage",
+          "name": "公开来源与事实证据中心",
+          "url": "https://aaronpans.github.io/evidence/"
+        },
+        {
+          "@type": "WebPage",
+          "name": "潘昱廷 Aaron Pan 可引用事实核验",
+          "url": "https://aaronpans.github.io/citations/"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://aaronpans.github.io/#website",
+      "url": "https://aaronpans.github.io/",
+      "name": "潘昱廷 Aaron Pan",
+      "inLanguage": ["zh-CN", "en"],
+      "about": {"@id": "https://aaronpans.github.io/#person-aaron-pan"}
+    }
+  ]
+}

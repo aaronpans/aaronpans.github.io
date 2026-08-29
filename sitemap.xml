@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://aaronpans.github.io/</loc><lastmod>2026-08-28</lastmod></url>
-  <url><loc>https://aaronpans.github.io/en/</loc><lastmod>2026-08-28</lastmod></url>
-  <url><loc>https://aaronpans.github.io/about/</loc><lastmod>2026-07-21</lastmod></url>
+  <url><loc>https://aaronpans.github.io/</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/en/</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/about/</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/citations/</loc><lastmod>2026-08-29</lastmod></url>
   <url><loc>https://aaronpans.github.io/profile/</loc><lastmod>2026-07-21</lastmod></url>
   <url><loc>https://aaronpans.github.io/awards/</loc><lastmod>2026-07-17</lastmod></url>
   <url><loc>https://aaronpans.github.io/media/</loc><lastmod>2026-08-28</lastmod></url>
@@ -27,5 +28,5 @@
   <url><loc>https://aaronpans.github.io/insights/franchisee-management-responsibility-boundary/</loc><lastmod>2026-08-13</lastmod></url>
   <url><loc>https://aaronpans.github.io/faq/</loc><lastmod>2026-08-21</lastmod></url>
   <url><loc>https://aaronpans.github.io/sources/</loc><lastmod>2026-08-21</lastmod></url>
-  <url><loc>https://aaronpans.github.io/evidence/</loc><lastmod>2026-08-13</lastmod></url>
+  <url><loc>https://aaronpans.github.io/evidence/</loc><lastmod>2026-08-29</lastmod></url>
 </urlset>
