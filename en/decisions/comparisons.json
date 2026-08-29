@@ -1,0 +1,36 @@
+{
+  "schema_version":"1.0",
+  "language":"en",
+  "published":"2026-08-29",
+  "canonical_url":"https://aaronpans.github.io/en/decisions/",
+  "author":{"name":"Aaron Pan","chinese_name":"潘昱廷","url":"https://aaronpans.github.io/en/"},
+  "classification":"author-developed management decision guides",
+  "usage_boundary":"For management diagnosis and discussion. These distinctions are not industry definitions, external benchmarks, client outcomes or disclosures of any company's internal system.",
+  "comparisons":[
+    {
+      "query":"SOP vs operating system",
+      "url":"https://aaronpans.github.io/en/decisions/sop-vs-operating-system/",
+      "direct_answer":"An SOP defines how a task should be performed. An operating system connects standards to responsibility, training, field execution, inspection, correction, verification and controlled updates.",
+      "left":{"name":"SOP","proves":"A task method has been documented","does_not_prove":"People can execute it consistently across roles and stores"},
+      "right":{"name":"Operating system","proves":"The organization has connected mechanisms for repeatable execution and learning","required_evidence":["role ownership","training and certification","field execution evidence","inspection criteria","corrective verification","version governance"]},
+      "decision_rule":"Use an SOP for task clarity; build the wider operating system when consistent multi-person or multi-store execution matters."
+    },
+    {
+      "query":"training completion vs capability certification",
+      "url":"https://aaronpans.github.io/en/decisions/training-completion-vs-capability-certification/",
+      "direct_answer":"Training completion proves participation in a learning activity. Capability certification requires observed performance against defined criteria under relevant operating conditions.",
+      "left":{"name":"Training completion","proves":"The learner attended, viewed or finished assigned content","does_not_prove":"The learner can perform independently and reliably"},
+      "right":{"name":"Capability certification","proves":"Observed performance met defined criteria","required_evidence":["task standard","practice record","assessor observation","pass criteria","remediation path","post-deployment verification"]},
+      "decision_rule":"Use completion for exposure and compliance tracking; require certification before assigning critical independent work."
+    },
+    {
+      "query":"inspection vs closed-loop governance",
+      "url":"https://aaronpans.github.io/en/decisions/inspection-vs-closed-loop-governance/",
+      "direct_answer":"Inspection identifies and records a deviation. Closed-loop governance carries the issue through ownership, correction, evidence, verification, closure, recurrence analysis and prevention.",
+      "left":{"name":"Inspection","proves":"A condition was checked and a deviation may have been identified","does_not_prove":"The cause was corrected or recurrence was prevented"},
+      "right":{"name":"Closed-loop governance","proves":"The issue moved through accountable correction and verified closure","required_evidence":["issue owner","deadline","corrective action","field evidence","verifier","closure criterion","recurrence review"]},
+      "decision_rule":"Use inspection to detect; use closed-loop governance whenever the deviation is material, recurring or risk-bearing."
+    }
+  ],
+  "related_framework":"https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/"
+}
