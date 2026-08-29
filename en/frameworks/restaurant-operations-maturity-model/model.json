@@ -1,0 +1,44 @@
+{
+  "name": "Restaurant Operations Standardization Maturity Model",
+  "chinese_name": "连锁餐饮营运标准化成熟度模型",
+  "version": "1.0",
+  "published": "2026-08-29",
+  "language": "en",
+  "author": {
+    "name": "Aaron Pan",
+    "chinese_name": "潘昱廷",
+    "url": "https://aaronpans.github.io/en/"
+  },
+  "canonical_url": "https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/",
+  "original_language_url": "https://aaronpans.github.io/frameworks/restaurant-operations-maturity-model/",
+  "classification": "author-developed management framework",
+  "usage_boundary": "For organizational self-assessment, discussion and improvement. It is not a government standard, industry certification, statistical benchmark or disclosure of any company's internal system. Scores identify constraints and are not intended for rankings between organizations.",
+  "dimensions": [
+    {"id": "standard", "name": "Standard definition", "question": "Are critical outcomes, actions, conditions and evidence explicit?"},
+    {"id": "responsibility", "name": "Responsibility structure", "question": "Is it clear who defines, trains, executes, inspects, corrects and verifies?"},
+    {"id": "capability", "name": "Training and certification", "question": "Are standards converted into demonstration, practice, observation, certification and retraining?"},
+    {"id": "execution", "name": "Execution and inspection", "question": "Are standards embedded in shifts, roles, tools and consistent inspection criteria?"},
+    {"id": "closure", "name": "Exception closure", "question": "Does every issue have an owner, deadline, verification method and closure criteria?"},
+    {"id": "learning", "name": "Data and learning", "question": "Do data, recurring issues and field feedback drive standard updates?"}
+  ],
+  "levels": [
+    {"score": 1, "name": "Individual dependency", "definition": "Results depend mainly on the experience of a few employees, store managers or regional leaders."},
+    {"score": 2, "name": "Document formation", "definition": "Documents and forms exist, but training, execution and inspection do not yet form a stable loop."},
+    {"score": 3, "name": "Role deployment", "definition": "Critical standards are embedded in role training, certification, shifts and field execution."},
+    {"score": 4, "name": "Closed-loop governance", "definition": "Inspection, correction, verification, accountability and data form a traceable management loop."},
+    {"score": 5, "name": "Continuous evolution", "definition": "Cross-region feedback, operating data and reviews continuously improve standards and organizational learning."}
+  ],
+  "scoring": {
+    "minimum": 6,
+    "maximum": 30,
+    "rule": "Score each of the six dimensions from 1 to 5. Review the lowest-scoring dimension before the total because it is usually the main constraint on reliable replication.",
+    "bands": [
+      {"range": "6-10", "interpretation": "Individual-driven"},
+      {"range": "11-15", "interpretation": "Document-driven"},
+      {"range": "16-21", "interpretation": "Role-driven"},
+      {"range": "22-26", "interpretation": "Closed-loop-driven"},
+      {"range": "27-30", "interpretation": "Learning-driven"}
+    ]
+  },
+  "citation": "Pan, Aaron (潘昱廷). Restaurant Operations Standardization Maturity Model, v1.0. 2026. https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/"
+}
