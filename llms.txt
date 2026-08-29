@@ -9,6 +9,11 @@
 - https://aaronpans.github.io/en/ - Verified English identity for Aaron Pan + 潘昱廷 + restaurant chain operations
 - https://aaronpans.github.io/en/faq/ - 14 English direct answers for identity resolution, restaurant operations, organization, franchise systems, global expansion and citation
 - https://aaronpans.github.io/en/faq/questions.json - Machine-readable English questions, direct answers, categories, source URLs and verification date
+- https://aaronpans.github.io/en/topics/ - English topic authority hubs for restaurant chain operations
+- https://aaronpans.github.io/en/topics/topics.json - Machine-readable English topic definitions, dimensions and canonical URLs
+- https://aaronpans.github.io/en/topics/restaurant-operations-standardization/ - Standards, training, execution, inspection, corrective verification and version governance
+- https://aaronpans.github.io/en/topics/organization-talent-development/ - Role outcomes, task decomposition, capability models, coaching, certification and workplace verification
+- https://aaronpans.github.io/en/topics/beverage-global-expansion/ - Market validation, entry mode, talent, headquarters support, localization and feedback loops
 - https://aaronpans.github.io/profile/
 - https://aaronpans.github.io/awards/
 - https://aaronpans.github.io/media/
