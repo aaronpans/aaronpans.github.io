@@ -2,4 +2,5 @@
 Allow: /
 
 Sitemap: https://aaronpans.github.io/sitemap.xml
+Sitemap: https://aaronpans.github.io/image-sitemap.xml
 Sitemap: https://aaronpans.github.io/feed.xml

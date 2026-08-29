@@ -2044,9 +2044,11 @@ blockquote,
 .home-hero-bg {
   inset: 68px max(24px, calc((100vw - 1240px) / 2)) 74px auto;
   width: min(43vw, 540px);
+  height: auto;
   border: 14px solid #e5ded1;
   outline: 1px solid var(--archive-line);
-  background-position: center 24%;
+  object-fit: cover;
+  object-position: center 24%;
   filter: saturate(0.72) contrast(1.06);
   transform: none;
   box-shadow: 0 30px 80px rgba(38, 31, 23, 0.16);
@@ -2361,7 +2363,7 @@ blockquote,
     height: 58vh;
     min-height: 440px;
     margin: 54px 24px 0;
-    background-position: center 24%;
+    object-position: center 24%;
   }
 
   .home-hero-inner {

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Aaron Pan AP monogram">
+  <rect width="64" height="64" rx="8" fill="#173b31"/>
+  <path d="M14 48 27.5 16h7L48 48h-8l-2.5-6.5h-13L22 48h-8Zm13-13h8l-4-10.5L27 35Z" fill="#f3eee4"/>
+  <path d="M39 16h8.5c7 0 11.5 3.5 11.5 10 0 6.7-4.7 10.5-12 10.5h-2V31h2c3.3 0 5-1.5 5-4.7 0-3-1.7-4.5-5-4.5h-8V16Z" fill="#c77452"/>
+</svg>
