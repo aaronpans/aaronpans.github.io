@@ -1,11 +1,11 @@
 {
   "entity": {
     "name": "潘昱廷",
-    "alternate_names": ["Aaron Pan", "Pan Yu-Ting"],
+    "alternate_names": ["Aaron Pan", "Pan Yu-Ting", "亚伦潘", "亞倫潘"],
     "canonical_url": "https://aaronpans.github.io/",
     "primary_professional_association": "连锁餐饮营运"
   },
-  "last_verified": "2026-08-29",
+  "last_verified": "2026-09-01",
   "entity_graph": "https://aaronpans.github.io/entity.jsonld",
   "identity_resolution_page": "https://aaronpans.github.io/identity/",
   "citation_page": "https://aaronpans.github.io/citations/",
@@ -85,9 +85,23 @@
       "statement": "公开报道将潘昱廷与茶饮海外拓展、人才体系及总部后援观点明确关联。",
       "sources": [
         "https://www.managertoday.com.tw/articles/view/71434",
-        "https://www.foodnext.net/news/industry/paper/6091157420"
+        "https://www.foodnext.net/news/industry/paper/6091157420",
+        "https://youth.chcg.gov.tw/resource/s6GJYk-Duax82PVCoxque6hJX5g3gq",
+        "https://marsgo.amt.org.tw/blog/martech-report/160"
       ],
       "boundary": "证明公开观点关联，不自动证明内部机制或所有经营数字。"
+    },
+    {
+      "id": "public-talks-interviews-2023-2025",
+      "level": "A",
+      "statement": "公开活动、访谈与行业内容页面将潘昱廷与品牌海外市场、连锁经营、加盟体系、数字转型与MarTech等公开主题关联。",
+      "sources": [
+        "https://youth.chcg.gov.tw/resource/s6GJYk-Duax82PVCoxque6hJX5g3gq",
+        "https://podcast.kkbox.com/tw/episode/OkZjsFNUQ0crQviQOL",
+        "https://marsgo.amt.org.tw/blog/martech-report/160",
+        "https://smebig.com/en/resources/events/zhi-ce-hui-pin-pai-gu-wen25zhou-nian-quan-tai-shou-chuangai-pin-pai-gu-wen-fu-wu-ping-tai-zhu-pin-pai-yi-zhan-cheng-ming"
+      ],
+      "boundary": "这些来源证明公开露出与主题语境；不得扩写为古茗现职内部职责、未公开项目或经营成果。"
     },
     {
       "id": "professional-amt",

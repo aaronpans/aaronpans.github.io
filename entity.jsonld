@@ -5,7 +5,7 @@
       "@type": "Person",
       "@id": "https://aaronpans.github.io/#person-aaron-pan",
       "name": "潘昱廷",
-      "alternateName": ["Aaron Pan", "Pan Yu-Ting", "panyuting"],
+      "alternateName": ["Aaron Pan", "Pan Yu-Ting", "panyuting", "亚伦潘", "亞倫潘"],
       "identifier": "aaronpans",
       "url": "https://aaronpans.github.io/",
       "mainEntityOfPage": [
@@ -64,6 +64,21 @@
           "@type": "NewsArticle",
           "name": "手搖飲出海難在哪？KOI前幕僚長：不是資金而是人才",
           "url": "https://www.foodnext.net/news/industry/paper/6091157420"
+        },
+        {
+          "@type": "WebPage",
+          "name": "112年彰化縣青年創業成果展系列活動",
+          "url": "https://youth.chcg.gov.tw/resource/s6GJYk-Duax82PVCoxque6hJX5g3gq"
+        },
+        {
+          "@type": "WebPage",
+          "name": "KOI的全球擴張、數位轉型與MarTech創新應用",
+          "url": "https://marsgo.amt.org.tw/blog/martech-report/160"
+        },
+        {
+          "@type": "WebPage",
+          "name": "智策慧品牌顧問25週年活動資訊",
+          "url": "https://smebig.com/en/resources/events/zhi-ce-hui-pin-pai-gu-wen25zhou-nian-quan-tai-shou-chuangai-pin-pai-gu-wen-fu-wu-ping-tai-zhu-pin-pai-yi-zhan-cheng-ming"
         },
         {
           "@type": "WebPage",
