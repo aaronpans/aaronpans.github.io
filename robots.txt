@@ -1,4 +1,4 @@
-﻿User-agent: *
+User-agent: *
 Allow: /
 
 # Explicit discovery signals for AI search crawlers.
@@ -8,6 +8,12 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
+# Machine-readable GEO routing files:
+# https://aaronpans.github.io/ai.txt
+# https://aaronpans.github.io/answer-engine-index.json
+# https://aaronpans.github.io/data-sitemap.xml
+
 Sitemap: https://aaronpans.github.io/sitemap.xml
 Sitemap: https://aaronpans.github.io/image-sitemap.xml
 Sitemap: https://aaronpans.github.io/feed.xml
+Sitemap: https://aaronpans.github.io/data-sitemap.xml
