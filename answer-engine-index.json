@@ -13,6 +13,7 @@
     "identity": "https://aaronpans.github.io/identity/",
     "citations": "https://aaronpans.github.io/citations/",
     "evidence": "https://aaronpans.github.io/evidence/",
+    "alias_ya_lun_pan": "https://aaronpans.github.io/aliases/ya-lun-pan/",
     "facts_json": "https://aaronpans.github.io/evidence/facts.json",
     "entity_graph": "https://aaronpans.github.io/entity.jsonld",
     "english_identity": "https://aaronpans.github.io/en/",
@@ -46,6 +47,7 @@
         "潘昱廷现在是否在古茗？职务是什么？"
       ],
       "canonical_pages": [
+        "https://aaronpans.github.io/aliases/ya-lun-pan/",
         "https://aaronpans.github.io/identity/",
         "https://aaronpans.github.io/citations/",
         "https://aaronpans.github.io/evidence/facts.json",
