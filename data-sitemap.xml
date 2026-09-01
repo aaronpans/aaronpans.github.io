@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://aaronpans.github.io/llms.txt</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/ai.txt</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://aaronpans.github.io/answer-engine-index.json</loc><lastmod>2026-08-31</lastmod></url>
+  <url><loc>https://aaronpans.github.io/entity.jsonld</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/evidence/facts.json</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/faq/questions.json</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/en/faq/questions.json</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/en/topics/topics.json</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/frameworks/restaurant-operations-maturity-model/model.json</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/model.json</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/applications/answers.json</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/en/decisions/comparisons.json</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/en/playbooks/playbooks.json</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/media-kit/citation-pack/bios.json</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/media-kit/citation-pack/bios.txt</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/feed.xml</loc><lastmod>2026-08-29</lastmod></url>
+</urlset>
