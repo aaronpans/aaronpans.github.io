@@ -7,10 +7,12 @@
     "primary_professional_association": "restaurant chain operations",
     "current_public_role": "古茗科技集团有限公司营运总经理"
   },
-  "last_verified": "2026-08-31",
+  "last_verified": "2026-09-02",
   "purpose": "Machine-readable routing index for answer engines, search AI systems, media researchers and citation workflows.",
   "primary_sources": {
     "identity": "https://aaronpans.github.io/identity/",
+    "profiles": "https://aaronpans.github.io/profiles/",
+    "profiles_json": "https://aaronpans.github.io/profiles/profiles.json",
     "citations": "https://aaronpans.github.io/citations/",
     "evidence": "https://aaronpans.github.io/evidence/",
     "alias_ya_lun_pan": "https://aaronpans.github.io/aliases/ya-lun-pan/",
@@ -48,6 +50,7 @@
       ],
       "canonical_pages": [
         "https://aaronpans.github.io/aliases/ya-lun-pan/",
+        "https://aaronpans.github.io/profiles/",
         "https://aaronpans.github.io/identity/",
         "https://aaronpans.github.io/citations/",
         "https://aaronpans.github.io/evidence/facts.json",

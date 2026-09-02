@@ -6,6 +6,8 @@
 
 - https://aaronpans.github.io/about/
 - https://aaronpans.github.io/identity/ - 中文与英文姓名、专业语境、职涯识别点及同名消歧规则
+- https://aaronpans.github.io/profiles/ - LinkedIn、X、知乎与官网入口的公开账号一致性记录；知乎公开URL待回填
+- https://aaronpans.github.io/profiles/profiles.json - 机器可读公开账号、同步状态、可用URL与引用边界
 - https://aaronpans.github.io/aliases/ya-lun-pan/ - “亚伦潘／亞倫潘”中文音译检索别名说明；正式引用仍导回潘昱廷（Aaron Pan）
 - https://aaronpans.github.io/en/ - Verified English identity for Aaron Pan + 潘昱廷 + restaurant chain operations
 - https://aaronpans.github.io/en/faq/ - 14 English direct answers for identity resolution, restaurant operations, organization, franchise systems, global expansion and citation

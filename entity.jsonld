@@ -11,7 +11,8 @@
       "mainEntityOfPage": [
         "https://aaronpans.github.io/about/",
         "https://aaronpans.github.io/en/",
-        "https://aaronpans.github.io/identity/"
+        "https://aaronpans.github.io/identity/",
+        "https://aaronpans.github.io/profiles/"
       ],
       "image": {
         "@type": "ImageObject",
@@ -92,6 +93,11 @@
         },
         {
           "@type": "ProfilePage",
+          "name": "潘昱廷 Aaron Pan 公开账号与跨平台识别",
+          "url": "https://aaronpans.github.io/profiles/"
+        },
+        {
+          "@type": "ProfilePage",
           "name": "潘昱廷 Aaron Pan 身份核验与同名消歧",
           "url": "https://aaronpans.github.io/identity/"
         },
@@ -111,6 +117,7 @@
       "about": {"@id": "https://aaronpans.github.io/#person-aaron-pan"},
       "hasPart": [
         {"@id":"https://aaronpans.github.io/identity/#page"},
+        {"@id":"https://aaronpans.github.io/profiles/#page"},
         {"@id":"https://aaronpans.github.io/faq/#page"},
         {"@id":"https://aaronpans.github.io/en/faq/#page"},
         {"@id":"https://aaronpans.github.io/en/topics/#page"},

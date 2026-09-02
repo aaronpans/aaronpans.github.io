@@ -5,8 +5,15 @@
   <link href="https://aaronpans.github.io/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://aaronpans.github.io/" rel="alternate" type="text/html"/>
   <id>https://aaronpans.github.io/</id>
-  <updated>2026-09-01T16:40:00+08:00</updated>
+  <updated>2026-09-02T20:45:00+08:00</updated>
   <author><name>潘昱廷 Aaron Pan</name><uri>https://aaronpans.github.io/</uri></author>
+  <entry>
+    <title>潘昱廷 Aaron Pan 公开账号与跨平台识别</title>
+    <link href="https://aaronpans.github.io/profiles/"/>
+    <id>https://aaronpans.github.io/profiles/</id>
+    <updated>2026-09-02T20:45:00+08:00</updated>
+    <summary>新增公开账号与跨平台识别页，记录 LinkedIn、X 与知乎同步状态，并把亚伦潘／亞倫潘音译别名导回身份核验入口。</summary>
+  </entry>
   <entry>
     <title>亚伦潘是谁？潘昱廷 Aaron Pan 音译检索别名说明</title>
     <link href="https://aaronpans.github.io/aliases/ya-lun-pan/"/>
