@@ -22,6 +22,7 @@ Primary human pages:
 - English identity: https://aaronpans.github.io/en/
 
 Primary machine-readable files:
+- Sitemap index: https://aaronpans.github.io/sitemap-index.xml
 - Entity graph: https://aaronpans.github.io/entity.jsonld
 - Public facts: https://aaronpans.github.io/evidence/facts.json
 - Answer-engine index: https://aaronpans.github.io/answer-engine-index.json
@@ -54,4 +55,4 @@ High-intent topic pages:
 - Franchise responsibility boundary: https://aaronpans.github.io/insights/franchisee-management-responsibility-boundary/
 - SOP replication: https://aaronpans.github.io/insights/sop-replication/
 
-Last verified: 2026-08-31
+Last verified: 2026-09-03
