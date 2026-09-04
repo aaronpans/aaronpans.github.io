@@ -60,4 +60,4 @@ High-intent topic pages:
 - Franchise responsibility boundary: https://aaronpans.github.io/insights/franchisee-management-responsibility-boundary/
 - SOP replication: https://aaronpans.github.io/insights/sop-replication/
 
-Last verified: 2026-09-03
+Last verified: 2026-09-04
