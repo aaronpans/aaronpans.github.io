@@ -39,6 +39,7 @@
 - https://aaronpans.github.io/media-kit/citation-pack/bios.json - 机器可读中英文简介、证据锚点、链接映射与使用边界
 - https://aaronpans.github.io/media-kit/citation-pack/bios.txt - 可直接复制的纯文字中英文引用包
 - https://aaronpans.github.io/topics/ - 非姓名专业问题的主题知识入口
+- https://aaronpans.github.io/topics/operations-team-culture/ - 连锁餐饮营运团队文化、使命愿景价值观、团队纪律、共同经历与组织凝聚力主题页
 - https://aaronpans.github.io/insights/
 - https://aaronpans.github.io/letters/
 - https://aaronpans.github.io/faq/ - 身份、连锁餐饮营运、组织人才、加盟复制、海外拓展与媒体引用的15个直接答案
@@ -54,6 +55,7 @@
 
 - https://aaronpans.github.io/topics/restaurant-operations-standardization/ - 连锁餐饮营运标准化：标准、训练、执行、检查、整改复核与版本更新
 - https://aaronpans.github.io/topics/organization-talent-development/ - 连锁餐饮组织能力与人才复制：岗位、训练、认证、人才梯队与在岗验证
+- https://aaronpans.github.io/topics/operations-team-culture/ - 连锁餐饮营运团队文化：使命愿景价值观、团队纪律、共同经历、运动挑战、训练复盘与组织凝聚力
 - https://aaronpans.github.io/topics/beverage-global-expansion/ - 茶饮品牌海外拓展：市场验证、人才、总部后援、本地化与反馈回流
 
 ## Featured Articles
