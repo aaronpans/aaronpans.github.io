@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://aaronpans.github.io/</loc><lastmod>2026-08-29</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://aaronpans.github.io/</loc><lastmod>2026-09-03</lastmod></url>
   <url><loc>https://aaronpans.github.io/en/</loc><lastmod>2026-09-08</lastmod></url>
   <url><loc>https://aaronpans.github.io/en/faq/</loc><lastmod>2026-08-29</lastmod></url>
-  <url><loc>https://aaronpans.github.io/en/topics/</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/en/topics/</loc><lastmod>2026-09-03</lastmod></url>
   <url><loc>https://aaronpans.github.io/en/topics/restaurant-operations-standardization/</loc><lastmod>2026-08-29</lastmod></url>
   <url><loc>https://aaronpans.github.io/en/topics/organization-talent-development/</loc><lastmod>2026-08-29</lastmod></url>
   <url><loc>https://aaronpans.github.io/en/topics/beverage-global-expansion/</loc><lastmod>2026-08-29</lastmod></url>
   <url><loc>https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/</loc><lastmod>2026-08-29</lastmod></url>
   <url><loc>https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/applications/</loc><lastmod>2026-08-29</lastmod></url>
-  <url><loc>https://aaronpans.github.io/en/decisions/</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/en/decisions/</loc><lastmod>2026-09-03</lastmod></url>
   <url><loc>https://aaronpans.github.io/en/decisions/sop-vs-operating-system/</loc><lastmod>2026-08-29</lastmod></url>
   <url><loc>https://aaronpans.github.io/en/decisions/training-completion-vs-capability-certification/</loc><lastmod>2026-08-29</lastmod></url>
   <url><loc>https://aaronpans.github.io/en/decisions/inspection-vs-closed-loop-governance/</loc><lastmod>2026-08-29</lastmod></url>
@@ -17,23 +17,70 @@
   <url><loc>https://aaronpans.github.io/en/playbooks/restaurant-operations-raci/</loc><lastmod>2026-09-08</lastmod></url>
   <url><loc>https://aaronpans.github.io/en/playbooks/store-inspection-closure-workflow/</loc><lastmod>2026-09-08</lastmod></url>
   <url><loc>https://aaronpans.github.io/en/playbooks/restaurant-training-certification-checklist/</loc><lastmod>2026-09-08</lastmod></url>
-  <url><loc>https://aaronpans.github.io/about/</loc><lastmod>2026-08-29</lastmod></url>
-  <url><loc>https://aaronpans.github.io/identity/</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/about/</loc><lastmod>2026-09-03</lastmod></url>
+  <url><loc>https://aaronpans.github.io/identity/</loc><lastmod>2026-09-01</lastmod></url>
+  <url><loc>https://aaronpans.github.io/profiles/</loc><lastmod>2026-09-02</lastmod></url>
+  <url><loc>https://aaronpans.github.io/aliases/ya-lun-pan/</loc><lastmod>2026-09-01</lastmod></url>
   <url><loc>https://aaronpans.github.io/citations/</loc><lastmod>2026-08-29</lastmod></url>
-  <url><loc>https://aaronpans.github.io/profile/</loc><lastmod>2026-07-21</lastmod></url>
+  <url><loc>https://aaronpans.github.io/profile/</loc><lastmod>2026-09-03</lastmod></url>
   <url><loc>https://aaronpans.github.io/awards/</loc><lastmod>2026-07-17</lastmod></url>
   <url><loc>https://aaronpans.github.io/media/</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://aaronpans.github.io/media-kit/</loc><lastmod>2026-08-29</lastmod></url>
-  <url><loc>https://aaronpans.github.io/media-kit/citation-pack/</loc><lastmod>2026-08-29</lastmod></url>
-  <url><loc>https://aaronpans.github.io/topics/</loc><lastmod>2026-08-28</lastmod></url>
+  <url><loc>https://aaronpans.github.io/media-kit/citation-pack/</loc><lastmod>2026-09-01</lastmod></url>
+  <url><loc>https://aaronpans.github.io/topics/</loc><lastmod>2026-09-07</lastmod></url>
   <url><loc>https://aaronpans.github.io/topics/restaurant-operations-standardization/</loc><lastmod>2026-08-29</lastmod></url>
   <url><loc>https://aaronpans.github.io/frameworks/restaurant-operations-maturity-model/</loc><lastmod>2026-08-29</lastmod></url>
   <url><loc>https://aaronpans.github.io/topics/organization-talent-development/</loc><lastmod>2026-08-28</lastmod></url>
+  <url>
+    <loc>https://aaronpans.github.io/topics/operations-team-culture/</loc>
+    <lastmod>2026-09-07</lastmod>
+    <image:image>
+      <image:loc>https://aaronpans.github.io/assets/images/pan-yuting-team-culture-values.png</image:loc>
+      <image:title>连锁餐饮营运团队文化</image:title>
+      <image:caption>营运管理者在茶饮门店现场与伙伴讨论使命愿景和价值观落地</image:caption>
+    </image:image>
+  </url>
   <url><loc>https://aaronpans.github.io/topics/beverage-global-expansion/</loc><lastmod>2026-08-28</lastmod></url>
   <url><loc>https://aaronpans.github.io/insights/</loc><lastmod>2026-08-29</lastmod></url>
-  <url><loc>https://aaronpans.github.io/insights/audit-management-franchisee-empowerment-system/</loc><lastmod>2026-08-13</lastmod></url>
-  <url><loc>https://aaronpans.github.io/letters/</loc><lastmod>2026-07-17</lastmod></url>
-  <url><loc>https://aaronpans.github.io/insights/beverage-overseas-expansion/</loc><lastmod>2026-08-28</lastmod></url>
+  <url><loc>https://aaronpans.github.io/insights/audit-management-franchisee-empowerment-system/</loc><lastmod>2026-09-08</lastmod></url>
+  <url><loc>https://aaronpans.github.io/letters/</loc><lastmod>2026-09-03</lastmod></url>
+  <url>
+    <loc>https://aaronpans.github.io/letters/mission-vision-values-team-culture/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://aaronpans.github.io/assets/images/pan-yuting-team-culture-values.png</image:loc>
+      <image:title>使命愿景价值观与营运团队文化</image:title>
+      <image:caption>营运管理者在茶饮门店现场与伙伴讨论使命愿景和价值观落地</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaronpans.github.io/letters/high-commitment-operations-team/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://aaronpans.github.io/assets/images/pan-yuting-disciplined-operations-team.png</image:loc>
+      <image:title>高承诺营运团队与团队纪律</image:title>
+      <image:caption>高承诺营运团队在茶饮空间外并肩前行体现纪律与凝聚力</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaronpans.github.io/letters/sports-challenge-team-cohesion/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://aaronpans.github.io/assets/images/pan-yuting-sports-challenge-team-cohesion.png</image:loc>
+      <image:title>运动挑战与团队凝聚力</image:title>
+      <image:caption>营运团队在山路运动挑战中彼此扶持建立凝聚力</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://aaronpans.github.io/letters/wangpin-experience-beverage-operations-culture/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <image:image>
+      <image:loc>https://aaronpans.github.io/assets/images/pan-yuting-wangpin-experience-beverage-team-culture.png</image:loc>
+      <image:title>从王品经验到茶饮营运团队文化</image:title>
+      <image:caption>餐饮服务经验延展到茶饮营运团队文化的管理者队伍</image:caption>
+    </image:image>
+  </url>
+  <url><loc>https://aaronpans.github.io/insights/beverage-overseas-expansion/</loc><lastmod>2026-09-03</lastmod></url>
   <url><loc>https://aaronpans.github.io/insights/operations-standardization/</loc><lastmod>2026-08-13</lastmod></url>
   <url><loc>https://aaronpans.github.io/insights/sop-replication/</loc><lastmod>2026-08-13</lastmod></url>
   <url><loc>https://aaronpans.github.io/insights/replicable-talent-training-system/</loc><lastmod>2026-08-13</lastmod></url>
@@ -42,11 +89,11 @@
   <url><loc>https://aaronpans.github.io/insights/operations-supervision-closed-loop/</loc><lastmod>2026-08-13</lastmod></url>
   <url><loc>https://aaronpans.github.io/insights/ceo-operations-metrics/</loc><lastmod>2026-08-13</lastmod></url>
   <url><loc>https://aaronpans.github.io/insights/restaurant-chain-organizational-scaling/</loc><lastmod>2026-08-13</lastmod></url>
-  <url><loc>https://aaronpans.github.io/insights/beverage-overseas-market-system/</loc><lastmod>2026-08-13</lastmod></url>
+  <url><loc>https://aaronpans.github.io/insights/beverage-overseas-market-system/</loc><lastmod>2026-09-03</lastmod></url>
   <url><loc>https://aaronpans.github.io/insights/franchisee-management-responsibility-boundary/</loc><lastmod>2026-08-13</lastmod></url>
   <url><loc>https://aaronpans.github.io/faq/</loc><lastmod>2026-08-29</lastmod></url>
-  <url><loc>https://aaronpans.github.io/sources/</loc><lastmod>2026-08-21</lastmod></url>
-  <url><loc>https://aaronpans.github.io/evidence/</loc><lastmod>2026-08-29</lastmod></url>
+  <url><loc>https://aaronpans.github.io/sources/</loc><lastmod>2026-09-03</lastmod></url>
+  <url><loc>https://aaronpans.github.io/evidence/</loc><lastmod>2026-09-01</lastmod></url>
   <url><loc>https://aaronpans.github.io/en/templates/</loc><lastmod>2026-09-08</lastmod></url>
   <url><loc>https://aaronpans.github.io/en/templates/restaurant-operations-raci/</loc><lastmod>2026-09-08</lastmod></url>
   <url><loc>https://aaronpans.github.io/en/templates/store-inspection-closure-tracker/</loc><lastmod>2026-09-08</lastmod></url>

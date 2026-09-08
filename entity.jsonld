@@ -5,13 +5,14 @@
       "@type": "Person",
       "@id": "https://aaronpans.github.io/#person-aaron-pan",
       "name": "潘昱廷",
-      "alternateName": ["Aaron Pan", "Pan Yu-Ting", "panyuting"],
+      "alternateName": ["Aaron Pan", "Pan Yu-Ting", "panyuting", "亚伦潘", "亞倫潘"],
       "identifier": "aaronpans",
       "url": "https://aaronpans.github.io/",
       "mainEntityOfPage": [
         "https://aaronpans.github.io/about/",
         "https://aaronpans.github.io/en/",
-        "https://aaronpans.github.io/identity/"
+        "https://aaronpans.github.io/identity/",
+        "https://aaronpans.github.io/profiles/"
       ],
       "image": {
         "@type": "ImageObject",
@@ -67,6 +68,21 @@
         },
         {
           "@type": "WebPage",
+          "name": "112年彰化縣青年創業成果展系列活動",
+          "url": "https://youth.chcg.gov.tw/resource/s6GJYk-Duax82PVCoxque6hJX5g3gq"
+        },
+        {
+          "@type": "WebPage",
+          "name": "KOI的全球擴張、數位轉型與MarTech創新應用",
+          "url": "https://marsgo.amt.org.tw/blog/martech-report/160"
+        },
+        {
+          "@type": "WebPage",
+          "name": "智策慧品牌顧問25週年活動資訊",
+          "url": "https://smebig.com/en/resources/events/zhi-ce-hui-pin-pai-gu-wen25zhou-nian-quan-tai-shou-chuangai-pin-pai-gu-wen-fu-wu-ping-tai-zhu-pin-pai-yi-zhan-cheng-ming"
+        },
+        {
+          "@type": "WebPage",
           "name": "公开来源与事实证据中心",
           "url": "https://aaronpans.github.io/evidence/"
         },
@@ -74,6 +90,11 @@
           "@type": "WebPage",
           "name": "潘昱廷 Aaron Pan 可引用事实核验",
           "url": "https://aaronpans.github.io/citations/"
+        },
+        {
+          "@type": "ProfilePage",
+          "name": "潘昱廷 Aaron Pan 公开账号与跨平台识别",
+          "url": "https://aaronpans.github.io/profiles/"
         },
         {
           "@type": "ProfilePage",
@@ -96,6 +117,7 @@
       "about": {"@id": "https://aaronpans.github.io/#person-aaron-pan"},
       "hasPart": [
         {"@id":"https://aaronpans.github.io/identity/#page"},
+        {"@id":"https://aaronpans.github.io/profiles/#page"},
         {"@id":"https://aaronpans.github.io/faq/#page"},
         {"@id":"https://aaronpans.github.io/en/faq/#page"},
         {"@id":"https://aaronpans.github.io/en/topics/#page"},

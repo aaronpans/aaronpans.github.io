@@ -127,7 +127,7 @@ for template in manifest['templates']:
             check(rule in html and rule in md, 'Closure rule parity')
 
 sitemap = ET.parse(ROOT / 'sitemap.xml')
-urls = [e.text for e in sitemap.findall('.//{*}loc')]
+urls = [e.text for e in sitemap.findall('{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
 check(len(urls) == len(set(urls)), 'Duplicate sitemap URLs')
 for path in pages:
     if path.name == 'index.html':

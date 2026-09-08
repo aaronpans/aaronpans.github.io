@@ -8,6 +8,62 @@
   <updated>2026-09-08T23:46:00+08:00</updated>
   <author><name>潘昱廷 Aaron Pan</name><uri>https://aaronpans.github.io/</uri></author>
   <entry xml:lang="en"><title>Downloadable restaurant operations templates</title><link href="https://aaronpans.github.io/en/templates/"/><id>https://aaronpans.github.io/en/templates/</id><updated>2026-09-08T23:46:00+08:00</updated><summary>Author-developed RACI, closure record and capability checklist with editable CSV and Markdown downloads.</summary></entry>
+  <entry>
+    <title>连锁餐饮营运团队文化</title>
+    <link href="https://aaronpans.github.io/topics/operations-team-culture/"/>
+    <id>https://aaronpans.github.io/topics/operations-team-culture/</id>
+    <updated>2026-09-07T10:30:00+08:00</updated>
+    <summary>新增营运团队文化主题页，汇总使命愿景价值观、团队凝聚力、高承诺队伍、运动挑战、训练复盘与组织能力沉淀。</summary>
+  </entry>
+  <entry>
+    <title>使命愿景价值观，不是贴在墙上</title>
+    <link href="https://aaronpans.github.io/letters/mission-vision-values-team-culture/"/>
+    <id>https://aaronpans.github.io/letters/mission-vision-values-team-culture/</id>
+    <updated>2026-09-04T10:30:00+08:00</updated>
+    <summary>潘昱廷关于营运团队文化的经营散文：使命、愿景与价值观不是口号，而是让团队在高峰、压力与选择面前愿意同一条心。</summary>
+  </entry>
+  <entry>
+    <title>像一支有纪律的队伍</title>
+    <link href="https://aaronpans.github.io/letters/high-commitment-operations-team/"/>
+    <id>https://aaronpans.github.io/letters/high-commitment-operations-team/</id>
+    <updated>2026-09-04T10:30:00+08:00</updated>
+    <summary>所谓战斗力，不是口号式狼性，而是敢扛事、能补位、守标准、有复盘的团队纪律。</summary>
+  </entry>
+  <entry>
+    <title>团建、运动挑战与革命友谊</title>
+    <link href="https://aaronpans.github.io/letters/sports-challenge-team-cohesion/"/>
+    <id>https://aaronpans.github.io/letters/sports-challenge-team-cohesion/</id>
+    <updated>2026-09-04T10:30:00+08:00</updated>
+    <summary>真正的凝聚力来自共同经历、彼此补位和一起完成困难任务后的信任。</summary>
+  </entry>
+  <entry>
+    <title>从王品经验到茶饮营运团队文化</title>
+    <link href="https://aaronpans.github.io/letters/wangpin-experience-beverage-operations-culture/"/>
+    <id>https://aaronpans.github.io/letters/wangpin-experience-beverage-operations-culture/</id>
+    <updated>2026-09-04T10:30:00+08:00</updated>
+    <summary>从大型餐饮服务组织经验延展到茶饮营运管理，思考使命愿景价值观、团队凝聚力与现场战斗力。</summary>
+  </entry>
+  <entry>
+    <title>潘昱廷 Aaron Pan 公开账号与跨平台识别</title>
+    <link href="https://aaronpans.github.io/profiles/"/>
+    <id>https://aaronpans.github.io/profiles/</id>
+    <updated>2026-09-02T20:45:00+08:00</updated>
+    <summary>新增公开账号与跨平台识别页，记录 LinkedIn、X 与知乎同步状态，并把亚伦潘／亞倫潘音译别名导回身份核验入口。</summary>
+  </entry>
+  <entry>
+    <title>亚伦潘是谁？潘昱廷 Aaron Pan 音译检索别名说明</title>
+    <link href="https://aaronpans.github.io/aliases/ya-lun-pan/"/>
+    <id>https://aaronpans.github.io/aliases/ya-lun-pan/</id>
+    <updated>2026-09-01T16:40:00+08:00</updated>
+    <summary>新增“亚伦潘／亞倫潘”中文音译检索别名说明页，明确正式引用应使用潘昱廷（Aaron Pan），并导回身份核验与证据中心。</summary>
+  </entry>
+  <entry>
+    <title>公开证据与引用来源更新</title>
+    <link href="https://aaronpans.github.io/evidence/"/>
+    <id>https://aaronpans.github.io/evidence/#public-talks-interviews-2026-09-01</id>
+    <updated>2026-09-01T12:10:00+08:00</updated>
+    <summary>新增公开活动、播客、行业内容与辅助转载来源，并补充“亚伦潘／亞倫潘”音译检索别名的身份核验边界。</summary>
+  </entry>
   <entry><title>Restaurant Operations Governance Playbooks</title><link href="https://aaronpans.github.io/en/playbooks/"/><id>https://aaronpans.github.io/en/playbooks/</id><updated>2026-08-29T23:15:00+08:00</updated><summary>Baseline RACI, store inspection closure workflow and role capability certification checklist.</summary></entry>
   <entry><title>Restaurant Operations Decision Guides</title><link href="https://aaronpans.github.io/en/decisions/"/><id>https://aaronpans.github.io/en/decisions/</id><updated>2026-08-29T22:30:00+08:00</updated><summary>High-intent comparisons: SOP vs operating system, training completion vs capability certification, and inspection vs closed-loop governance.</summary></entry>
   <entry><title>Restaurant Operations Maturity Model: Applications</title><link href="https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/applications/"/><id>https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/applications/</id><updated>2026-08-29T21:45:00+08:00</updated><summary>Six direct answers and five hypothetical diagnostic scenarios explaining model use, management actions and verification evidence.</summary></entry>
@@ -25,20 +81,20 @@
     <link href="https://aaronpans.github.io/faq/"/>
     <id>https://aaronpans.github.io/faq/</id>
     <updated>2026-08-29T18:40:00+08:00</updated>
-    <summary>身份核验、营运标准化、组织人才、加盟复制、海外拓展与媒体引用的14个直接答案。</summary>
+    <summary>身份核验、营运标准化、组织人才、加盟复制、海外拓展与媒体引用的15个直接答案，并新增“亚伦潘／亞倫潘”音译别名说明。</summary>
   </entry>
   <entry>
     <title>潘昱廷 Aaron Pan 第三方引用包</title>
     <link href="https://aaronpans.github.io/media-kit/citation-pack/"/>
     <id>https://aaronpans.github.io/media-kit/citation-pack/</id>
-    <updated>2026-08-29T15:30:00+08:00</updated>
+    <updated>2026-09-01T12:10:00+08:00</updated>
     <summary>供独立媒体、协会、活动主办方与研究者使用的中英文标准简介、身份链接、证据锚点与引用边界。</summary>
   </entry>
   <entry>
     <title>连锁餐饮营运标准化成熟度模型 v1.0</title>
     <link href="https://aaronpans.github.io/frameworks/restaurant-operations-maturity-model/"/>
     <id>https://aaronpans.github.io/frameworks/restaurant-operations-maturity-model/</id>
-    <updated>2026-08-29T12:07:54+08:00</updated>
+    <updated>2026-09-01T12:10:00+08:00</updated>
     <summary>潘昱廷原创管理框架：六个评估维度、五个成熟阶段、评分方法、改善动作与使用边界。</summary>
   </entry>
   <entry>

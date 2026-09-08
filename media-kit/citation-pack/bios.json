@@ -1,11 +1,12 @@
 {
   "schema_version": "1.0",
-  "last_verified": "2026-08-29",
+  "last_verified": "2026-09-01",
   "resource_status": "Authorized factual resource for independent editorial use; not an independent endorsement.",
   "entity": {
     "canonical_name": "潘昱廷",
     "english_name": "Aaron Pan",
     "romanization": "Pan Yu-Ting",
+    "search_aliases": ["亚伦潘", "亞倫潘"],
     "canonical_url": "https://aaronpans.github.io/",
     "identity_url": "https://aaronpans.github.io/identity/"
   },
@@ -31,7 +32,11 @@
     {"type": "official_organization_directory", "publisher": "AMT", "url": "https://amt.org.tw/about-us/amt-partners", "supports": ["current public company", "current public title", "board membership"]},
     {"type": "independent_media", "publisher": "经理人", "url": "https://www.managertoday.com.tw/articles/view/71434", "supports": ["former KOI role", "overseas talent systems", "headquarters support"]},
     {"type": "industry_media", "publisher": "食力 foodNEXT", "url": "https://www.foodnext.net/news/industry/paper/6091157420", "supports": ["former KOI role", "beverage global expansion", "talent systems"]},
-    {"type": "association_news", "publisher": "IAA Taipei", "url": "https://iaataipei.org.tw/news/article/348", "supports": ["name listed among third-term AMT directors"]}
+    {"type": "association_news", "publisher": "IAA Taipei", "url": "https://iaataipei.org.tw/news/article/348", "supports": ["name listed among third-term AMT directors"]},
+    {"type": "public_event", "publisher": "彰化县青年资源页", "url": "https://youth.chcg.gov.tw/resource/s6GJYk-Duax82PVCoxque6hJX5g3gq", "supports": ["public event listing", "KOI/50 Lan context", "overseas market topic"]},
+    {"type": "podcast", "publisher": "KKBOX", "url": "https://podcast.kkbox.com/tw/episode/OkZjsFNUQ0crQviQOL", "supports": ["public interview exposure", "50 Lan/KOI topic context"]},
+    {"type": "industry_event", "publisher": "SMEbig", "url": "https://smebig.com/en/resources/events/zhi-ce-hui-pin-pai-gu-wen25zhou-nian-quan-tai-shou-chuangai-pin-pai-gu-wen-fu-wu-ping-tai-zhu-pin-pai-yi-zhan-cheng-ming", "supports": ["public event participation", "KOI/50 Lan headquarters staff role context", "brand and AI discussion context"]},
+    {"type": "industry_content", "publisher": "AMT MarsGo", "url": "https://marsgo.amt.org.tw/blog/martech-report/160", "supports": ["KOI global expansion topic", "digital transformation and MarTech topic"]}
   ],
   "usage_boundaries": [
     "Do not attribute historical KOI achievements to the current Guming role.",

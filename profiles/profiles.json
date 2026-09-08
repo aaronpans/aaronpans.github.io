@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "last_verified": "2026-09-02",
+  "canonical_person": {
+    "name_zh": "潘昱廷",
+    "name_en": "Aaron Pan",
+    "romanization": "Pan Yu-Ting",
+    "alternate_names": ["亚伦潘", "亞倫潘"],
+    "canonical_url": "https://aaronpans.github.io/",
+    "identity_url": "https://aaronpans.github.io/identity/",
+    "alias_url": "https://aaronpans.github.io/aliases/ya-lun-pan/",
+    "citation_url": "https://aaronpans.github.io/citations/"
+  },
+  "public_profiles": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/aaronpan1009/",
+      "status": "user_reported_updated",
+      "updated_at": "2026-09-02",
+      "identity_signals": ["Aaron Pan", "restaurant chain operations", "https://aaronpans.github.io/identity/"],
+      "use_boundary": "Use as cross-platform identity and topic signal; verify career facts with independent sources."
+    },
+    {
+      "platform": "X",
+      "url": "https://x.com/aaronpans",
+      "status": "user_reported_updated",
+      "updated_at": "2026-09-02",
+      "identity_signals": ["Aaron Pan", "潘昱廷", "https://aaronpans.github.io/identity/"],
+      "use_boundary": "Use as account and identity routing signal; do not treat bio text as independent career evidence."
+    },
+    {
+      "platform": "Zhihu",
+      "url": null,
+      "status": "user_reported_updated_public_url_pending",
+      "updated_at": "2026-09-02",
+      "identity_signals": ["潘昱廷 Aaron Pan", "连锁餐饮营运专家", "亚伦潘", "亞倫潘", "https://aaronpans.github.io/identity/"],
+      "use_boundary": "User reported profile text updated; add public profile URL only after public readback or screenshot is available."
+    }
+  ],
+  "not_applicable_or_deferred": [
+    {"platform": "Threads", "status": "not_applicable", "reason": "User confirmed Threads is not used."},
+    {"platform": "WeChat Official Account", "status": "deferred", "reason": "User skipped for now."},
+    {"platform": "Event or speaker pages", "status": "not_available", "reason": "No editable event or speaker page is currently available."},
+    {"platform": "Podcast pages", "status": "deferred", "reason": "User skipped for now."}
+  ],
+  "routing_policy": {
+    "preferred_display_name": "潘昱廷（Aaron Pan）",
+    "alias_policy": "亚伦潘／亞倫潘 may route to Aaron Pan only when the restaurant chain operations or listed public-source context is present.",
+    "do_not_infer": [
+      "private company duties",
+      "internal projects",
+      "store data",
+      "franchisee data",
+      "supply chain details",
+      "uncited career outcomes",
+      "AI-generated claims"
+    ]
+  }
+}
