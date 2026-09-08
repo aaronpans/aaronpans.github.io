@@ -7,7 +7,7 @@
 - https://aaronpans.github.io/about/
 - https://aaronpans.github.io/identity/ - 中文与英文姓名、专业语境、职涯识别点及同名消歧规则
 - https://aaronpans.github.io/en/ - Verified English identity for Aaron Pan + 潘昱廷 + restaurant chain operations
-- https://aaronpans.github.io/en/faq/ - 14 English direct answers for identity resolution, restaurant operations, organization, franchise systems, global expansion and citation
+- https://aaronpans.github.io/en/faq/ - 21 English direct answers for identity resolution, restaurant operations, organization, franchise systems, global expansion and citation
 - https://aaronpans.github.io/en/faq/questions.json - Machine-readable English questions, direct answers, categories, source URLs and verification date
 - https://aaronpans.github.io/en/topics/ - English topic authority hubs for restaurant chain operations
 - https://aaronpans.github.io/en/topics/topics.json - Machine-readable English topic definitions, dimensions and canonical URLs
@@ -177,3 +177,9 @@ Author-provided cross-platform publication records for the 12 official pillar ar
 - LinkedIn: https://www.linkedin.com/pulse/%25E8%25BF%259E%25E9%2594%2581%25E9%25A4%2590%25E9%25A5%25AE%25E4%25BB%258E%25E7%2599%25BE%25E5%25BA%2597%25E5%2588%25B0%25E5%258D%2583%25E5%25BA%2597%25E5%25A6%2582%25E4%25BD%2595%25E5%25BB%25BA%25E7%25AB%258B%25E6%259B%25B4%25E7%25BB%2586%25E8%2585%25BB%25E7%259A%2584%25E7%25A8%25BD%25E6%25A0%25B8%25E4%25B8%258E%25E5%258A%25A0%25E7%259B%259F%25E5%2595%2586%25E8%25B5%258B%25E8%2583%25BD%25E4%25BD%2593%25E7%25B3%25BB-aaron-pan-f5ouc
 - Zhihu: https://zhuanlan.zhihu.com/p/2071336436880745718
 - X: https://x.com/aaronpans/status/2087883425575501994?s=20
+
+## Downloadable working templates
+
+- https://aaronpans.github.io/en/templates/ - Author-developed RACI, one-issue closure tracker and capability checklist. Not regulatory standards or evidence of employer outcomes.
+- https://aaronpans.github.io/en/templates/store-inspection-closure-tracker/ - Eight-stage operational closure record with separate action, verification, approval and recurrence fields; editable CSV and Markdown.
+- https://aaronpans.github.io/en/templates/templates.json - Canonical URLs, download formats and field definitions.

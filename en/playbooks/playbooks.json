@@ -8,6 +8,7 @@
   "usage_boundary":"Adapt roles, authority, risk levels and service times before use. These templates are not legal requirements, accredited certifications, universal organization designs or disclosures of any company's internal process.",
   "raci":{
     "url":"https://aaronpans.github.io/en/playbooks/restaurant-operations-raci/",
+    "working_template":"https://aaronpans.github.io/en/templates/restaurant-operations-raci/",
     "legend":{"R":"Responsible: performs the work","A":"Accountable: owns the outcome and final decision","C":"Consulted: provides input before action","I":"Informed: receives the outcome"},
     "roles":["HQ standard owner","regional operations","store manager","trainer or coach","frontline role","assigned verifier"],
     "activities":[
@@ -23,6 +24,7 @@
   },
   "closure_workflow":{
     "url":"https://aaronpans.github.io/en/playbooks/store-inspection-closure-workflow/",
+    "working_template":"https://aaronpans.github.io/en/templates/store-inspection-closure-tracker/",
     "steps":[
       {"position":1,"name":"Detect and classify","exit_criterion":"Deviation and provisional risk level recorded"},
       {"position":2,"name":"Capture evidence","exit_criterion":"Location, time, standard reference and field proof attached"},
@@ -36,6 +38,7 @@
   },
   "certification_checklist":{
     "url":"https://aaronpans.github.io/en/playbooks/restaurant-training-certification-checklist/",
+    "working_template":"https://aaronpans.github.io/en/templates/training-certification-checklist/",
     "items":[
       "Role and task scope are defined",
       "Entry prerequisites are confirmed",

@@ -2830,3 +2830,170 @@ blockquote,
     gap: 12px;
   }
 }
+
+/* Printable governance templates */
+.template-boundary { font-size: .875rem; line-height: 1.5; }
+.closure-template .template-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.closure-template .template-field { min-height: 100px; }
+.closure-template li { margin-bottom: .8rem; }
+.print-template {
+  max-width: 1240px;
+}
+
+.template-fields {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 28px 0;
+  border-top: 1px solid var(--archive-line);
+  border-left: 1px solid var(--archive-line);
+}
+
+.template-field {
+  min-height: 82px;
+  padding: 14px 16px;
+  border-right: 1px solid var(--archive-line);
+  border-bottom: 1px solid var(--archive-line);
+}
+
+.template-field strong {
+  display: block;
+  margin-bottom: 22px;
+  color: var(--archive-rust);
+  font-size: 14px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.template-field span {
+  display: block;
+  min-height: 18px;
+  border-bottom: 1px solid var(--archive-ink);
+}
+
+.template-note {
+  min-height: 100px;
+  margin: 20px 0;
+  padding: 14px 16px;
+  border: 1px solid var(--archive-line);
+}
+
+.template-note strong {
+  display: block;
+  margin-bottom: 44px;
+  color: var(--archive-rust);
+  font-size: 14px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.checkbox-cell {
+  width: 38px;
+  text-align: center !important;
+  font-size: 18px;
+}
+
+@media (max-width: 760px) {
+  .template-fields {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@page portrait-page {
+  size: A4 portrait;
+  margin: 10mm;
+}
+
+@page landscape-page {
+  size: A4 landscape;
+  margin: 9mm;
+}
+
+@media print {
+  body {
+    background: #fff;
+    color: #111;
+  }
+
+  .print-portrait {
+    page: portrait-page;
+  }
+
+  .print-landscape {
+    page: landscape-page;
+  }
+
+  .site-header,
+  .site-footer,
+  .no-print,
+  .section::before {
+    display: none !important;
+  }
+
+  .print-template {
+    max-width: none;
+    padding: 0;
+  }
+
+  .print-template h1 {
+    margin: 0 0 4mm;
+    font-size: 24pt;
+  }
+
+  .print-template .lead,
+  .print-template p {
+    font-size: 9pt;
+    line-height: 1.35;
+  }
+
+  .template-fields {
+    margin: 4mm 0;
+  }
+
+  .template-field {
+    min-height: 16mm;
+    padding: 2.5mm;
+  }
+
+  .template-field strong {
+    margin-bottom: 5mm;
+    font-size: 9pt;
+    letter-spacing: normal;
+  }
+
+  .template-field, .print-template tr { break-inside: avoid; }
+  .print-template thead { display: table-header-group; }
+  .closure-template .print-new-page { break-before: page; }
+  .closure-template h2 { margin: 3mm 0; font-size: 14pt; }
+  .closure-template .template-fields { margin: 2mm 0; }
+  .closure-template .template-field { min-height: 17mm; padding: 2mm; }
+  .closure-template .template-field strong { margin-bottom: 3mm; }
+
+  .print-template .table-wrap {
+    margin: 4mm 0;
+    overflow: visible;
+    border-radius: 0;
+  }
+
+  .print-template .table-wrap table {
+    min-width: 0;
+    font-size: 7.5pt;
+  }
+
+  .print-template .table-wrap th,
+  .print-template .table-wrap td {
+    padding: 2mm;
+    line-height: 1.25;
+  }
+
+  .print-template .table-wrap th {
+    background: #222 !important;
+    color: #fff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .template-note {
+    min-height: 24mm;
+    margin: 4mm 0;
+  }
+}

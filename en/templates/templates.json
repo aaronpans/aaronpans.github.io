@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "language": "en",
+  "published": "2026-09-08",
+  "canonical_url": "https://aaronpans.github.io/en/templates/",
+  "author": {
+    "name": "Aaron Pan",
+    "chinese_name": "潘昱廷",
+    "url": "https://aaronpans.github.io/en/"
+  },
+  "classification": "author-developed baseline working templates",
+  "usage_boundary": "Adapt roles, authority, risk policy, retention rules and applicable legal requirements before production use. These are not legal forms or accredited certification records.",
+  "templates": [
+    {
+      "id": "restaurant-operations-raci",
+      "name": "Restaurant Operations RACI Template",
+      "url": "https://aaronpans.github.io/en/templates/restaurant-operations-raci/",
+      "print_orientation": "A4 landscape",
+      "downloads": {
+        "csv": "https://aaronpans.github.io/en/templates/restaurant-operations-raci/template.csv",
+        "markdown": "https://aaronpans.github.io/en/templates/restaurant-operations-raci/template.md"
+      },
+      "fields": [
+        "Activity",
+        "HQ standard owner",
+        "Regional operations",
+        "Store manager",
+        "Trainer or coach",
+        "Frontline role",
+        "Assigned verifier",
+        "Adaptation notes",
+        "Organization",
+        "Business unit / market",
+        "Template owner",
+        "Version",
+        "Effective date",
+        "Review date",
+        "Approver",
+        "Approval date",
+        "Escalation, absence coverage and segregation-of-duty notes"
+      ]
+    },
+    {
+      "id": "store-inspection-closure-tracker",
+      "name": "Store Inspection Closure Tracker",
+      "url": "https://aaronpans.github.io/en/templates/store-inspection-closure-tracker/",
+      "print_orientation": "A4 portrait",
+      "downloads": {
+        "csv": "https://aaronpans.github.io/en/templates/store-inspection-closure-tracker/template.csv",
+        "markdown": "https://aaronpans.github.io/en/templates/store-inspection-closure-tracker/template.md"
+      },
+      "fields": [
+        "Organization",
+        "Region / market",
+        "Store",
+        "Review period",
+        "Issue ID",
+        "Finding date",
+        "Location",
+        "Standard reference",
+        "Finding",
+        "Risk class",
+        "Immediate containment",
+        "Accountable owner",
+        "Action performer",
+        "Due date",
+        "Acceptance criterion",
+        "Corrective action",
+        "Corrective evidence",
+        "Assigned verifier",
+        "Verification date",
+        "Verification result",
+        "Closure decision",
+        "Decision rationale",
+        "Closure approver",
+        "Approval date",
+        "Closure date",
+        "Escalation owner",
+        "Recurrence flag",
+        "Related issue ID",
+        "Root cause",
+        "Preventive action",
+        "Prevention owner",
+        "Prevention due date",
+        "Prevention verification",
+        "Next review",
+        "Notes"
+      ],
+      "workflow": [
+        {
+          "position": 1,
+          "name": "Detect and classify",
+          "exit_criterion": "Deviation and provisional risk level recorded"
+        },
+        {
+          "position": 2,
+          "name": "Capture evidence",
+          "exit_criterion": "Location, time, standard reference and field proof attached"
+        },
+        {
+          "position": 3,
+          "name": "Assign owner and deadline",
+          "exit_criterion": "One accountable owner accepts an organization-defined deadline"
+        },
+        {
+          "position": 4,
+          "name": "Contain immediate risk",
+          "exit_criterion": "Unsafe or material exposure is controlled before normal operation continues"
+        },
+        {
+          "position": 5,
+          "name": "Correct the deviation",
+          "exit_criterion": "Corrective action completed with evidence"
+        },
+        {
+          "position": 6,
+          "name": "Verify effectiveness",
+          "exit_criterion": "Assigned verifier confirms the acceptance criterion in the field"
+        },
+        {
+          "position": 7,
+          "name": "Close, reject or escalate",
+          "exit_criterion": "Decision and rationale recorded"
+        },
+        {
+          "position": 8,
+          "name": "Analyze recurrence and prevent",
+          "exit_criterion": "Recurring or systemic issues trigger root-cause and system action"
+        }
+      ],
+      "decision_rules": [
+        "Use one record per issue. Name the action performer, accountable owner, assigned verifier and closure approver; record evidence references without exposing personal or confidential information.",
+        "Keep the issue open until the agreed acceptance criterion is met and the assigned verifier records field evidence. A correction photo alone does not establish effectiveness.",
+        "Record verification result as pass, fail or pending. Record closure decision as open, closed, rejected, escalated or reopened. Close only after a pass, evidence and dated approval; failed or missing verification cannot be closed.",
+        "The verifier should not verify their own corrective action. If staffing prevents separation, obtain an independent authorized review and document the exception before closure.",
+        "For repeated findings, link the original issue, reopen it or create a linked issue under local policy, and assign root cause, preventive action, owner, due date and effectiveness review. A closed correction does not mean prevention is complete."
+      ]
+    },
+    {
+      "id": "training-certification-checklist",
+      "name": "Restaurant Training Certification Checklist",
+      "url": "https://aaronpans.github.io/en/templates/training-certification-checklist/",
+      "print_orientation": "A4 portrait",
+      "downloads": {
+        "csv": "https://aaronpans.github.io/en/templates/training-certification-checklist/template.csv",
+        "markdown": "https://aaronpans.github.io/en/templates/training-certification-checklist/template.md"
+      },
+      "fields": [
+        "Item",
+        "Stage",
+        "Certification criterion",
+        "Acceptance evidence",
+        "Status",
+        "Assessor evidence",
+        "Notes",
+        "Candidate",
+        "Role / task",
+        "Store / location",
+        "Assessor",
+        "Standard version",
+        "Assessment date",
+        "Prior qualification",
+        "Renewal date / trigger",
+        "Decision",
+        "Deployment authority / limits",
+        "Follow-up date or trigger",
+        "Candidate signature",
+        "Assessor / approver signature"
+      ]
+    }
+  ],
+  "version": "1.0"
+}
