@@ -126,6 +126,15 @@ for template in manifest['templates']:
         for rule in template['decision_rules']:
             check(rule in html and rule in md, 'Closure rule parity')
 
+comparisons = json.loads((ROOT / 'en/decisions/comparisons.json').read_text())
+for comparison in comparisons['comparisons']:
+    target = comparison.get('working_template')
+    check(bool(target), f'Missing working template: {comparison["query"]}')
+    if target:
+        check(local_path(target).is_file(), f'Missing decision template: {target}')
+        source = local_path(comparison['url']).read_text()
+        check(urlsplit(target).path in source, f'Decision page/manifest link mismatch: {target}')
+
 sitemap = ET.parse(ROOT / 'sitemap.xml')
 urls = [e.text for e in sitemap.findall('{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
 check(len(urls) == len(set(urls)), 'Duplicate sitemap URLs')

@@ -5,8 +5,9 @@
   <link href="https://aaronpans.github.io/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://aaronpans.github.io/" rel="alternate" type="text/html"/>
   <id>https://aaronpans.github.io/</id>
-  <updated>2026-09-08T23:46:00+08:00</updated>
+  <updated>2026-09-08T23:54:00+08:00</updated>
   <author><name>潘昱廷 Aaron Pan</name><uri>https://aaronpans.github.io/</uri></author>
+  <entry><title>整改文章与决策指南新增工作模板入口</title><link href="https://aaronpans.github.io/insights/operations-supervision-closed-loop/#working-closure-template"/><id>https://aaronpans.github.io/feed.xml#closure-template-links-20260908</id><updated>2026-09-08T23:54:00+08:00</updated><summary>连接中文督导与稽核文章、英文决策指南和可下载模板；保留原框架及来源边界。</summary></entry>
   <entry xml:lang="en"><title>Downloadable restaurant operations templates</title><link href="https://aaronpans.github.io/en/templates/"/><id>https://aaronpans.github.io/en/templates/</id><updated>2026-09-08T23:46:00+08:00</updated><summary>Author-developed RACI, closure record and capability checklist with editable CSV and Markdown downloads.</summary></entry>
   <entry>
     <title>连锁餐饮营运团队文化</title>
