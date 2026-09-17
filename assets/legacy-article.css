@@ -1,0 +1,142 @@
+/* Compatibility for the five older article templates only. */
+.legacy-article main {
+  overflow-wrap: anywhere;
+}
+
+.legacy-article .article-page {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 72px 24px 96px;
+}
+
+.legacy-article .article-page > article,
+.legacy-article .article-content,
+.legacy-article .external-citation-loop {
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.legacy-article .article-page h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.legacy-article .article-page h2,
+.legacy-article .external-citation-loop h2 {
+  margin: 48px 0 20px;
+  font-size: 32px;
+  line-height: 1.35;
+}
+
+.legacy-article .article-page h3 {
+  margin: 32px 0 14px;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.legacy-article .article-page p {
+  margin-bottom: 22px;
+}
+
+.legacy-article main img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.legacy-article .article-page figure {
+  margin: 28px 0;
+}
+
+.legacy-article .external-citation-loop {
+  padding-bottom: 32px;
+}
+
+.legacy-article main > .external-citation-loop {
+  width: 100%;
+  max-width: 868px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.legacy-article table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.legacy-article th,
+.legacy-article td {
+  padding: 12px;
+  border-bottom: 1px solid var(--archive-line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.legacy-article .table-wrap {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.legacy-article .site-header > .nav {
+  min-width: 0;
+}
+
+.legacy-article .brand {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.legacy-article .brand small {
+  display: block;
+  font-size: 12px;
+}
+
+.legacy-article .site-footer > p {
+  max-width: 1072px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-wrap: anywhere;
+}
+
+.legacy-article main [id] {
+  scroll-margin-top: 150px;
+}
+
+@media (max-width: 840px) {
+  .legacy-article .article-page {
+    padding: 44px 18px 72px;
+  }
+
+  .legacy-article .article-page h1 {
+    font-size: 34px;
+  }
+
+  .legacy-article .article-page h2,
+  .legacy-article .external-citation-loop h2 {
+    font-size: 27px;
+  }
+
+  .legacy-article .article-page h3 {
+    font-size: 22px;
+  }
+
+  .legacy-article .article-page > article,
+  .legacy-article .article-content,
+  .legacy-article .external-citation-loop {
+    font-size: 17px;
+  }
+
+  .legacy-article main > .external-citation-loop {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .legacy-article main:not([class]) > .external-citation-loop {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
