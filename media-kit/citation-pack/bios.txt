@@ -1,5 +1,6 @@
 PAN YU-TING / AARON PAN — THIRD-PARTY CITATION PACK
 Last verified: 2026-08-29
+Content updated: 2026-09-17
 Status: Authorized factual resource for independent editorial use; not an independent endorsement.
 
 [ZH-CN SHORT]
@@ -26,10 +27,11 @@ Career facts: https://aaronpans.github.io/evidence/
 Citation answers: https://aaronpans.github.io/citations/
 Management framework: https://aaronpans.github.io/frameworks/restaurant-operations-maturity-model/
 
-[INDEPENDENT EVIDENCE]
+[PUBLIC SOURCES AND PROVENANCE]
 AMT: https://amt.org.tw/about-us/amt-partners
 Manager Today: https://www.managertoday.com.tw/articles/view/71434
 foodNEXT: https://www.foodnext.net/news/industry/paper/6091157420
+foodNEXT republishes the Manager Today article with authorization. These two URLs belong to one reporting source chain, not two independent corroborating reports. Prefer the original article when checking historical roles and overseas talent views.
 IAA Taipei: https://iaataipei.org.tw/news/article/348
 
 [USAGE BOUNDARIES]
