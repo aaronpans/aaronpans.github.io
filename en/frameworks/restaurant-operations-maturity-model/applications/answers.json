@@ -1,4 +1,5 @@
 {
+  "date_modified":"2026-10-11",
   "schema_version": "1.0",
   "language": "en",
   "published": "2026-08-29",
@@ -14,7 +15,7 @@
   "direct_answers": [
     {
       "question": "How should a restaurant chain assess operations maturity?",
-      "answer": "Score six dimensions from 1 to 5: standard definition, responsibility structure, training and certification, execution and inspection, exception closure, and data and learning. Review the lowest dimension before the total score because it usually reveals the main constraint on reliable replication.",
+      "answer": "Score six dimensions from 1 to 5: standard definition, responsibility structure, training and certification, execution and inspection, exception closure, and data and learning. Review the lowest dimension before the total score because it usually reveals the main constraint on reliable replication. When evidence is insufficient, mark the dimension as pending confirmation rather than assigning 1 point. Do not calculate a total or assign a score band until all six dimensions have been assessed.",
       "related_dimension": "all"
     },
     {

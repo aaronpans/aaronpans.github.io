@@ -2,6 +2,9 @@
   "name": "Restaurant Operations Standardization Maturity Model",
   "chinese_name": "连锁餐饮营运标准化成熟度模型",
   "version": "1.0",
+  "usage_guidance_updated": "2026-10-11",
+  "usage_guidance": ["Define the assessment scope first. Record the assessment subject, stores or roles covered, observation period, assessors and evidence sources. Scores from different scopes, periods or evidence conditions should not be compared directly.","Explain the evidence for each dimension. Present all six dimension scores and their supporting evidence, not only the total. Verify document availability, field execution and sustained effectiveness separately.","Do not force a score when evidence is insufficient. Mark an unconfirmed dimension as pending confirmation rather than assigning 1 point. Do not calculate a total or assign a score band until all six dimensions have been assessed.","Review weaknesses before the total. Use field risks and evidence to examine whether a low-scoring dimension obstructs the operating system; do not let high scores elsewhere conceal critical gaps.","Turn assessment into improvement and verification. Define actions, owners, acceptance evidence and review dates for dimensions needing improvement. Score changes should be traceable to changed evidence, not just assessor impressions."],
+  "score_interpretation_boundary": "The current public documentation does not provide empirical calibration evidence for the score bands. They should not be interpreted as statistically validated industry thresholds. Agree on and record dimension-specific scoring criteria before assessment.",
   "published": "2026-08-29",
   "language": "en",
   "author": {
