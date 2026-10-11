@@ -135,6 +135,31 @@ for comparison in comparisons['comparisons']:
         source = local_path(comparison['url']).read_text()
         check(urlsplit(target).path in source, f'Decision page/manifest link mismatch: {target}')
 
+# Keep the Chinese model answer aligned across visible HTML, JSON-LD and JSON.
+model = json.loads((ROOT / 'frameworks/restaurant-operations-maturity-model/model.json').read_text())
+faq_data = json.loads((ROOT / 'faq/questions.json').read_text())
+model_question = '连锁餐饮营运标准化成熟度模型如何使用？'
+matches = [q for q in faq_data['questions'] if q['question'] == model_question]
+check(len(matches) == 1, 'Chinese model FAQ must occur exactly once in questions.json')
+if len(matches) == 1:
+    answer = matches[0]['answer']
+    faq_path = ROOT / 'faq/index.html'
+    faq_source = faq_path.read_text()
+    faq_page = pages[faq_path]
+    structured = []
+    for document in faq_page.ld:
+        for node in document.get('@graph', [document]):
+            if node.get('@type') == 'FAQPage':
+                structured.extend(q['acceptedAnswer']['text'] for q in node.get('mainEntity', []) if q.get('name') == model_question)
+    check(structured == [answer], 'Chinese model FAQ JSON-LD/JSON mismatch')
+    check(f'<h3>{model_question}</h3><p class="direct-answer">{answer}</p>' in faq_source,
+          'Chinese model FAQ visible answer/JSON mismatch')
+    for group in ('dimensions', 'levels'):
+        names = [item['name'] for item in model[group]]
+        check('、'.join(names) in answer, f'Chinese model FAQ {group} names/order mismatch')
+    check('待确认' in answer and '不计算总分或判定总分区间' in answer,
+          'Chinese model FAQ missing incomplete-evidence rule')
+
 sitemap = ET.parse(ROOT / 'sitemap.xml')
 urls = [e.text for e in sitemap.findall('{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
 check(len(urls) == len(set(urls)), 'Duplicate sitemap URLs')
