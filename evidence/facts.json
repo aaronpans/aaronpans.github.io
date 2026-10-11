@@ -6,6 +6,48 @@
     "primary_professional_association": "连锁餐饮营运"
   },
   "last_verified": "2026-09-01",
+  "source_review_updated": "2026-10-11",
+  "source_review_scope": "仅复核以下四个来源的可读内容及其关系；未重新核验全部事实、奖项、日期或其他来源。保留历史来源数组不表示每个来源均已完成本次核验，使用时应同时读取source_reviews。",
+  "source_reviews": [
+    {
+      "url": "https://amt.org.tw/about-us/amt-partners",
+      "checked_on": "2026-10-11",
+      "status": "relevant_text_observed",
+      "source_type": "official_association_directory",
+      "section": "第三屆理事名單；個人創始會員",
+      "supports": "名录列示潘昱廷为第三届理事，公司与职称为古茗科技集团有限公司营运总经理；另列个人创始会员。",
+      "boundary": "不证明到任月份、内部职责或经营成果。"
+    },
+    {
+      "url": "https://www.managertoday.com.tw/articles/view/71434",
+      "checked_on": "2026-10-11",
+      "status": "relevant_text_observed",
+      "source_type": "original_media_report",
+      "published_on": "2025-12-16",
+      "source_family": "koi-overseas-talent-71434",
+      "supports": "支持历史 KOI 身份、海外人才及总部后援观点关联。",
+      "boundary": "历史报道不能证明古茗现职；文中2025年底卸任表述与本站本人确认的2025年11月到任记录需分别保留，精确时间关系待确认。"
+    },
+    {
+      "url": "https://www.foodnext.net/news/industry/paper/6091157420",
+      "checked_on": "2026-10-11",
+      "status": "relevant_text_observed",
+      "source_type": "authorized_republication",
+      "published_on": "2026-04-13",
+      "original_url": "https://www.managertoday.com.tw/articles/view/71434",
+      "source_family": "koi-overseas-talent-71434",
+      "supports": "页面明确标注经《经理人》授权刊登，可作为该报道的另一阅读入口。",
+      "boundary": "与原文属于同一报道来源，不算第二份独立采访或交叉证实；不证明古茗现职。"
+    },
+    {
+      "url": "https://amt.org.tw/amt-masters",
+      "checked_on": "2026-10-11",
+      "status": "needs_recheck",
+      "source_type": "official_association_page",
+      "observation": "本次取得的页面文字未找到潘昱廷姓名。",
+      "boundary": "仅表示本次读取未完成直接核验，不表示历史记录错误、身份撤销或页面永久失效；不应作为唯一直接核验入口。"
+    }
+  ],
   "entity_graph": "https://aaronpans.github.io/entity.jsonld",
   "identity_resolution_page": "https://aaronpans.github.io/identity/",
   "citation_page": "https://aaronpans.github.io/citations/",
