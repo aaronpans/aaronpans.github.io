@@ -135,6 +135,49 @@ for comparison in comparisons['comparisons']:
         source = local_path(comparison['url']).read_text()
         check(urlsplit(target).path in source, f'Decision page/manifest link mismatch: {target}')
 
+# Check every bilingual FAQ answer, not only the model question.
+class FAQAnswers(HTMLParser):
+    def __init__(self, source):
+        super().__init__()
+        self.question = None
+        self.capture = None
+        self.buffer = []
+        self.answers = []
+        self.feed(source)
+
+    def handle_starttag(self, tag, attrs):
+        attributes = dict(attrs)
+        if tag == 'h3':
+            self.capture, self.buffer = 'question', []
+        elif tag == 'p' and 'direct-answer' in attributes.get('class', '').split():
+            self.capture, self.buffer = 'answer', []
+
+    def handle_data(self, data):
+        if self.capture:
+            self.buffer.append(data)
+
+    def handle_endtag(self, tag):
+        if tag == 'h3' and self.capture == 'question':
+            self.question = ''.join(self.buffer).strip()
+            self.capture = None
+        elif tag == 'p' and self.capture == 'answer':
+            self.answers.append((self.question, ''.join(self.buffer).strip()))
+            self.capture = None
+
+for folder in ('faq', 'en/faq'):
+    faq_path = ROOT / folder / 'index.html'
+    faq_data = json.loads((ROOT / folder / 'questions.json').read_text())
+    expected = [(q['question'], q['answer']) for q in faq_data['questions']]
+    check(len({q for q, _ in expected}) == len(expected), f'{folder}: duplicate FAQ question')
+    visible = FAQAnswers(faq_path.read_text()).answers
+    structured = []
+    for document in pages[faq_path].ld:
+        for node in document.get('@graph', [document]):
+            if node.get('@type') == 'FAQPage':
+                structured.extend((q['name'], q['acceptedAnswer']['text']) for q in node.get('mainEntity', []))
+    check(visible == expected, f'{folder}: visible answers differ from questions.json')
+    check(structured == expected, f'{folder}: JSON-LD answers differ from questions.json')
+
 # Keep the Chinese model answer aligned across visible HTML, JSON-LD and JSON.
 model = json.loads((ROOT / 'frameworks/restaurant-operations-maturity-model/model.json').read_text())
 faq_data = json.loads((ROOT / 'faq/questions.json').read_text())
