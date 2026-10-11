@@ -3,6 +3,10 @@
   "english_name": "Restaurant Operations Standardization Maturity Model",
   "version": "1.0",
   "published": "2026-08-29",
+  "usage_guidance_updated": "2026-10-11",
+  "usage_guidance": ["先界定评估范围。记录评估对象、覆盖门店或岗位、观察期间、评估者及证据来源。不同范围、期间或证据条件下的分数，不宜直接比较。","逐维度说明依据。分别呈现六个维度的评分及支持证据，不只公布总分。文件存在、现场执行与持续有效，应分别核验。","证据不足，不强行评分。无法确认的维度标为“待确认”，不直接记为1分；六个维度未完成评估前，不计算总分或判定总分区间。","先看短板，再看总分。结合现场风险与证据，检查低分维度是否阻碍系统运行，不能让其他维度的高分掩盖关键缺口。","将评分转成改善与复核。对需要改善的维度，明确动作、负责人、验收证据与复核时间；分数变化应能追溯到证据变化，而不只是评估者印象。"],
+  "score_interpretation_boundary": "现有公开说明未提供分带的实证校准资料，不应将这些区间解释为经统计验证的行业阈值。具体维度的评分依据，应在评估前共同确认并记录。",
+  "applications_url": "https://aaronpans.github.io/en/frameworks/restaurant-operations-maturity-model/applications/",
   "author": {
     "name": "潘昱廷",
     "alternate_name": "Aaron Pan",
