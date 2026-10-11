@@ -26,12 +26,18 @@ class Page(HTMLParser):
     def __init__(self, source):
         super().__init__()
         self.links, self.canonicals, self.ld, self.ids = [], [], [], set()
+        self.language_alternates = []
+        self.language = None
         self.capture = False
         self.buffer = ''
         self.feed(source)
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        if tag == 'html':
+            self.language = a.get('lang')
+        if tag == 'link' and a.get('rel') == 'alternate' and a.get('hreflang'):
+            self.language_alternates.append((a['hreflang'], a.get('href', '')))
         if a.get('id'):
             self.ids.add(a['id'])
         for key in ('href', 'src'):
@@ -65,6 +71,35 @@ for path in ROOT.rglob('*.html'):
     except Exception as exc:
         errors.append(f'{path}: {exc}')
 
+# Language variants must resolve to canonical pages and link back.
+for path, page in pages.items():
+    if not page.language_alternates:
+        continue
+    languages = [language for language, _ in page.language_alternates]
+    check(len(languages) == len(set(languages)), f'{path}: duplicate hreflang')
+    check(len(page.canonicals) == 1, f'{path}: language variants need one canonical')
+    if len(page.canonicals) != 1:
+        continue
+    own_url = page.canonicals[0]
+    check((page.language, own_url) in page.language_alternates,
+          f'{path}: missing self-referencing language alternate')
+    for language, url in page.language_alternates:
+        parts = urlsplit(url)
+        check(parts.scheme in ('http', 'https') and bool(parts.netloc),
+              f'{path}: hreflang URL must be absolute: {url}')
+        target = local_path(url)
+        if target is None:
+            continue  # External variants require a separate live check.
+        check(target in pages, f'{path}: hreflang target missing: {url}')
+        if target not in pages:
+            continue
+        alternate = pages[target]
+        check(alternate.canonicals == [url], f'{path}: hreflang target is not canonical: {url}')
+        if language != 'x-default':
+            check(alternate.language == language, f'{path}: hreflang/target lang mismatch: {url}')
+            check((page.language, own_url) in alternate.language_alternates,
+                  f'{path}: missing reciprocal hreflang from {url}')
+
 for path, page in pages.items():
     base = ORIGIN + '/' + path.relative_to(ROOT).as_posix()
     for link in page.links:
@@ -95,7 +130,8 @@ playbooks = json.loads((ROOT / 'en/playbooks/playbooks.json').read_text())
 check(len(manifest['templates']) == 3, 'Expected 3 templates')
 for template in manifest['templates']:
     folder = local_path(template['url']).parent
-    rows = list(csv.reader((folder / 'template.csv').open(newline='')))
+    with (folder / 'template.csv').open(newline='', encoding='utf-8') as csv_file:
+        rows = list(csv.reader(csv_file))
     html = unescape((folder / 'index.html').read_text())
     md = (folder / 'template.md').read_text()
     check(all(len(row) == len(rows[0]) for row in rows), f'{folder}: CSV width mismatch')
