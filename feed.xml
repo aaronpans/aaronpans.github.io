@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
   <title>潘昱廷 Aaron Pan｜公开专业内容更新</title>
   <subtitle>连锁餐饮营运、营运标准化、组织能力、人才培养、海外拓展与公开证据更新。</subtitle>
   <link href="https://aaronpans.github.io/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://aaronpans.github.io/" rel="alternate" type="text/html"/>
   <id>https://aaronpans.github.io/</id>
-  <updated>2026-09-18T10:29:38+08:00</updated>
+  <updated>2026-10-12T18:20:38+08:00</updated>
   <author><name>潘昱廷 Aaron Pan</name><uri>https://aaronpans.github.io/</uri></author>
-<entry>
+<entry><title>连锁餐饮 SOP 如何落地？从找得到、做得出到判得清</title><id>https://aaronpans.github.io/insights/sop-usability-check/</id><published>2026-10-12T18:20:38+08:00</published><updated>2026-10-12T18:20:38+08:00</updated><summary>连锁餐饮 SOP 如何落地？从找到依据、完成动作与判断结果三个角度，检查标准是否可用，并区分说明、能力与条件的差距。</summary><link href="https://aaronpans.github.io/insights/sop-usability-check/"/></entry><entry><title>门店培训如何验收？从上完课到独立完成任务</title><id>https://aaronpans.github.io/insights/store-training-task-assessment/</id><published>2026-10-12T18:20:38+08:00</published><updated>2026-10-12T18:20:38+08:00</updated><summary>门店培训如何验收？通过理解、练习、独立完成与换场景验证，区分课程完成和工作能力，并了解每个阶段能证明什么。</summary><link href="https://aaronpans.github.io/insights/store-training-task-assessment/"/></entry><entry><title>门店检查发现问题后，如何改善而不增加无效规定？</title><id>https://aaronpans.github.io/insights/store-inspection-root-cause/</id><published>2026-10-12T18:20:38+08:00</published><updated>2026-10-12T18:20:38+08:00</updated><summary>门店检查发现问题后，先区分理解、能力、执行条件与要求适用性，再选择改善动作，避免把每个偏差都变成新增规定。</summary><link href="https://aaronpans.github.io/insights/store-inspection-root-cause/"/></entry><entry><title>单店成功如何转为连锁复制？先验证条件与适用边界</title><id>https://aaronpans.github.io/insights/single-store-pilot-replication/</id><published>2026-10-12T18:20:38+08:00</published><updated>2026-10-12T18:20:38+08:00</updated><summary>单店成功如何转为连锁复制？明确改善目标、验证有效条件与结果，区分扩大验证、继续观察和不宜直接复制的情况。</summary><link href="https://aaronpans.github.io/insights/single-store-pilot-replication/"/></entry><entry>
     <title>门店都很认真，为什么执行仍然不一致？</title>
     <id>https://aaronpans.github.io/insights/store-execution-consistency/</id>
     <published>2026-09-18T10:29:38+08:00</published>
     <updated>2026-09-18T10:29:38+08:00</updated>
     <summary>执行差异不一定来自态度。要让连锁门店稳定执行，需要把分散的信息转化为清楚的重点、可用的工具与一致的判断依据，同时保留对不同现场条件的识别。</summary>
-    <link href="https://aaronpans.github.io/insights/store-execution-consistency/" />
+    <link href="https://aaronpans.github.io/insights/store-execution-consistency/"/>
   </entry>
 <entry>
     <title>加盟管理，如何让支持真正到达实际管理者？</title>
@@ -21,7 +21,7 @@
     <published>2026-09-18T10:29:38+08:00</published>
     <updated>2026-09-18T10:29:38+08:00</updated>
     <summary>经营责任、资源决策与现场管理可能由不同角色承担。总部需要区分信息送达与能力形成，让指导到达真正组织工作的人，同时保留经营者的责任。</summary>
-    <link href="https://aaronpans.github.io/insights/supporting-actual-store-managers/" />
+    <link href="https://aaronpans.github.io/insights/supporting-actual-store-managers/"/>
   </entry>
 <entry>
     <title>加盟商赋能，为什么不能只用一种培训方式？</title>
@@ -29,7 +29,7 @@
     <published>2026-09-18T10:29:38+08:00</published>
     <updated>2026-09-18T10:29:38+08:00</updated>
     <summary>新经营者需要建立完整认知，有经验者可能需要校准局部偏差。支持方式应依据具体能力与经营条件，而不是仅按加盟年限分类。</summary>
-    <link href="https://aaronpans.github.io/insights/franchisee-capability-based-training/" />
+    <link href="https://aaronpans.github.io/insights/franchisee-capability-based-training/"/>
   </entry>
 <entry>
     <title>总部如何让培训、标准、监督与沟通形成合力？</title>
@@ -37,7 +37,7 @@
     <published>2026-09-18T10:29:38+08:00</published>
     <updated>2026-09-18T10:29:38+08:00</updated>
     <summary>职能各自完成任务，不等于门店获得连贯支持。协作应围绕同一个经营问题，连接标准解释、能力支持、风险监督与现场反馈，而非持续增加通知和会议。</summary>
-    <link href="https://aaronpans.github.io/insights/headquarters-operational-support-alignment/" />
+    <link href="https://aaronpans.github.io/insights/headquarters-operational-support-alignment/"/>
   </entry>
   <entry><title>整改文章与决策指南新增工作模板入口</title><link href="https://aaronpans.github.io/insights/operations-supervision-closed-loop/#working-closure-template"/><id>https://aaronpans.github.io/feed.xml#closure-template-links-20260908</id><updated>2026-09-08T23:54:00+08:00</updated><summary>连接中文督导与稽核文章、英文决策指南和可下载模板；保留原框架及来源边界。</summary></entry>
   <entry xml:lang="en"><title>Downloadable restaurant operations templates</title><link href="https://aaronpans.github.io/en/templates/"/><id>https://aaronpans.github.io/en/templates/</id><updated>2026-09-08T23:46:00+08:00</updated><summary>Author-developed RACI, closure record and capability checklist with editable CSV and Markdown downloads.</summary></entry>

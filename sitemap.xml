@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>https://aaronpans.github.io/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://aaronpans.github.io/en/</loc><lastmod>2026-09-08</lastmod></url>
@@ -41,7 +41,7 @@
     </image:image>
   </url>
   <url><loc>https://aaronpans.github.io/topics/beverage-global-expansion/</loc><lastmod>2026-10-10</lastmod></url>
-  <url><loc>https://aaronpans.github.io/insights/</loc><lastmod>2026-09-18</lastmod></url>
+  <url><loc>https://aaronpans.github.io/insights/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://aaronpans.github.io/insights/audit-management-franchisee-empowerment-system/</loc><lastmod>2026-09-16</lastmod></url>
   <url><loc>https://aaronpans.github.io/letters/</loc><lastmod>2026-09-03</lastmod></url>
   <url>
@@ -114,4 +114,4 @@
     <loc>https://aaronpans.github.io/insights/headquarters-operational-support-alignment/</loc>
     <lastmod>2026-09-18</lastmod>
   </url>
-</urlset>
+<url><loc>https://aaronpans.github.io/insights/sop-usability-check/</loc><lastmod>2026-10-12</lastmod><image:image><image:loc>https://aaronpans.github.io/assets/images/aaron-pan-sop-usability-check.png</image:loc></image:image></url><url><loc>https://aaronpans.github.io/insights/store-training-task-assessment/</loc><lastmod>2026-10-12</lastmod><image:image><image:loc>https://aaronpans.github.io/assets/images/aaron-pan-store-training-task-assessment.png</image:loc></image:image></url><url><loc>https://aaronpans.github.io/insights/store-inspection-root-cause/</loc><lastmod>2026-10-12</lastmod><image:image><image:loc>https://aaronpans.github.io/assets/images/aaron-pan-store-inspection-root-cause.png</image:loc></image:image></url><url><loc>https://aaronpans.github.io/insights/single-store-pilot-replication/</loc><lastmod>2026-10-12</lastmod><image:image><image:loc>https://aaronpans.github.io/assets/images/aaron-pan-single-store-pilot-replication.png</image:loc></image:image></url></urlset>

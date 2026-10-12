@@ -1,0 +1,14 @@
+.management-series .article-figure img { width: 100%; height: auto; aspect-ratio: auto; object-fit: contain; border-radius: 0; }
+.management-series .article-hero h1,
+.management-series .article-body h2 { letter-spacing: 0; }
+.management-series .article-deck { font-size: 18px; line-height: 1.85; }
+.management-series .table-wrap { max-width: 100%; border-radius: 0; border-color: #ccd7d1; }
+.management-series .table-wrap table { min-width: 0; table-layout: fixed; }
+.management-series .table-wrap th,
+.management-series .table-wrap td { width: 33.33%; padding: 14px; font-size: 16px; line-height: 1.7; overflow-wrap: anywhere; }
+.management-series .site-footer { overflow-wrap: anywhere; }
+@media (max-width: 600px) {
+  .management-series .article-hero h1 { font-size: 30px; }
+  .management-series .table-wrap th,
+  .management-series .table-wrap td { padding: 9px 7px; font-size: 14px; }
+}
