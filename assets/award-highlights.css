@@ -1,0 +1,20 @@
+/* Keep personal recognition next to the name, with links to evidence. */
+.home-hero .archive-accession,
+.home-hero .home-kicker { display: none; }
+.home-hero .home-hero-inner { padding-top: 78px; }
+.home-hero h1 { font-size: 76px; letter-spacing: 0; margin-bottom: 24px; }
+.home-hero h1 span { letter-spacing: 0; }
+.home-award-highlights { list-style: none; padding: 0; margin: 0 0 24px; }
+.home-award-highlights li { border-bottom: 1px solid var(--archive-line); }
+.home-award-highlights a { display: block; padding: 10px 0; color: var(--archive-ink); text-decoration: none; }
+.home-award-highlights span { display: block; font-size: 13px; line-height: 1.5; color: var(--archive-rust); }
+.home-award-highlights strong { display: block; font-size: 21px; line-height: 1.5; overflow-wrap: anywhere; }
+.home-award-highlights a:hover strong { text-decoration: underline; }
+.home-award-highlights a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.home-hero .home-lead { font-size: 17px; line-height: 1.7; }
+@media (max-width: 760px) {
+  .home-hero .home-hero-bg { height: 160px; min-height: 160px; object-position: center 25%; }
+  .home-hero h1 { font-size: 48px; }
+  .home-hero .home-hero-inner { padding-top: 28px; }
+  .home-award-highlights strong { font-size: 19px; }
+}
