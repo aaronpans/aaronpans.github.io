@@ -64,7 +64,9 @@
         {
           "@type": "NewsArticle",
           "name": "手搖飲出海難在哪？KOI前幕僚長：不是資金而是人才",
-          "url": "https://www.foodnext.net/news/industry/paper/6091157420"
+          "url": "https://www.foodnext.net/news/industry/paper/6091157420",
+          "isBasedOn": "https://www.managertoday.com.tw/articles/view/71434",
+          "description": "经《经理人》授权刊登，与原文属于同一报道来源，不是第二份独立采访或交叉证实；不作为古茗现职证据。"
         },
         {
           "@type": "WebPage",
